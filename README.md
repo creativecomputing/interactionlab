@@ -152,19 +152,20 @@ The Making Center is a constellation of shops, labs, and open workspaces that ar
 
 A student’s final grades and GPA are calculated using a 4.0 scale. Please note that while both are listed here, the 4.0 scale does not align mathematically with the numeric scale based on percentages of 100 points.
 
-| Grade                 | Description                                                                         |
-| :-------------------- | :---------------------------------------------------------------------------------- |
-| `A` [4.0; 95 – 100%]  | Work of exceptional quality, which often goes beyond the stated goals of the course |
-| `A-` [3.7; 90 – <95%] | Work of very high quality                                                            |
-| `B+` [3.3; 87 – <90%] | Work of high quality that indicates higher than average abilities                   |
-| `B` [3.0; 83 – <87%]  | Very good work that satisfies the goals of the course                               |
-| `B-` [2.7; 80 – <83%] | Good work                                                                           |
-| `C+` [2.3; 77 – <80%] | Above-average work                                                                  |
-| `C` [2.0; 73 – <77%]  | Average work that indicates an understanding of the course material; passable       |
-|                       | *Satisfactory completion of a course is considered to be a grade of C or higher.*   |
-| `C-` [1.7; 70 – <73%] | Passing work but below good academic standing                                       |
-| `D` [1.0; 60 – <70%]  | Below-average work that indicates a student does not fully understand the assignments; Probation level though passing for credit |
-| `F` [0.0; 0 – <60%]   | Failure, no credit                                                                  |
+
+| Grade | GPA Calculation    | Description                                                                         |
+| :---- | :----------------- | :---------------------------------------------------------------------------------- |
+| `A`   | `[4.0; 95 – 100%]` | Work of exceptional quality, which often goes beyond the stated goals of the course |
+| `A-`  | `[3.7; 90 – <95%]` | Work of very high quality                                                            |
+| `B+`  | `[3.3; 87 – <90%]` | Work of high quality that indicates higher than average abilities                   |
+| `B`   | `[3.0; 83 – <87%]` | Very good work that satisfies the goals of the course                               |
+| `B-`  | `[2.7; 80 – <83%]` | Good work                                                                           |
+| `C+`  | `[2.3; 77 – <80%]` | Above-average work                                                                  |
+| `C`   | `[2.0; 73 – <77%]` | Average work that indicates an understanding of the course material; passable       |
+|       |                    | *Satisfactory completion of a course is considered to be a grade of C or higher.*   |
+| `C-`  | `[1.7; 70 – <73%]` | Passing work but below good academic standing                                       |
+| `D`   | `[1.0; 60 – <70%]` | Below-average work that indicates a student does not fully understand the assignments; Probation level though passing for credit |
+| `F`   | `[0.0; 0 – <60%]`  | Failure, no credit                                                                  |
 
 
 ### Grade of W
