@@ -63,25 +63,14 @@ This course serves as a complement to Core Studio Interaction. The assignments a
 
 ## Assessable Tasks
 
+### Home Page
 
-### Hello World
-
-Using your knowledge of HTML and CSS (and JavaScript, if you like), create a website which introduces yourself to the class. Consider how the page could reflect your particular design sensibility, both formally and structurally. We will be using this page as a springboard to link to the research and writing you are generating this semester, so think about how the structure could evolve to accommodate a living archive of work.
+Build an index page for yourself using the structure and tags we have duscussed thus far in class. Consider how the page could reflect your particular design sensibility. We will be using this page as a springboard to link to the projects you make this semester, so think about how the structure could evolve to accommodate a living archive of work.
 
 
-### Essay
+### Hi, My Name Is
 
 Write an essay in response to a lecture, workshop, or reading we have engaged with over the course of the semester. Your essay can be of any length you choose, but should be a minimum of 500 words. 
-
-
-### Presentation
-
-At the conclusion of the course, summarize your essay in a five-minute presentation to the class. Consider the design of your presentation in relation to the content of your essay and how it may relate to or depart from said content.
-
-
-### Compendium
-
-Working as a team, the class will design and develop a microsite to house the essays and corresponding research produced by each student. Consider an appropriate organizing principle for the work and how eaah essay will be reperesented within the site. 
 
 
 ## Final Grade Calculation
@@ -89,8 +78,8 @@ Working as a team, the class will design and develop a microsite to house the es
 | Assessment                         |        % |
 | :--------------------------------- | -------: |
 | Attendance and Class Participation |      30% |
-| Hello World                        |       5% |
-| Essay                              |      20% |
+| Home Page                          |       5% |
+| Hi, My Name Is                     |       5% |
 | Presentation                       |      20% |
 | Compendium                         |      25% |
 | **Total**                          | **100%** |
@@ -100,7 +89,7 @@ Working as a team, the class will design and develop a microsite to house the es
 
 |   Week | Date  | Topic or Activity | Assignments and Reading |
 | :----: | :---: | :---------------- | :---------------------- |
-|  **1** | 01/24 | Introduction, Review Syllabus, [Getting Started](https://github.com/griffiths/visualculture.tk/blob/master/getting_started.md), Working Environment | **Assignment:** Hello World <br>**Readings:** Alexander Galloway, *Protocol* (Chapter 1); Hito Steyerl, *In Defense of the Poor Image* |
+|  **1** | 01/24 | Introduction, Review Syllabus, Getting Started, Working Environment | **Assignment:** Hi, My Name Is <br>**Readings:** Alexander Galloway, *Protocol* (Chapter 1) |
 |  **2** | 01/30 | Fireside Chat: Justin Ouellette | **Due:** Hello World <br>**Assignments:** Presentation, Essay, Compendium <br>**Readings:** J. R. Carpenter, *A Handmade Web*; Mark Weiser & John Seely Brown, *The Coming Age of Calm Technology* |
 |  **3** | 02/06 | Workshop: Laurel Schwulst | **Readings:** Dan Michaelson, *On Exactitude in Science*; Muriel Cooper, *The New Graphic Languages* |
 |  **4** | 02/13 | Workshop: Publishing with GitHub Pages | **Readings:** Alan Kay, *User Interface: A Personal View*; Marc Andreessen, *Why Software Is Eating the World* |
@@ -119,18 +108,17 @@ Working as a team, the class will design and develop a microsite to house the es
 
 ## Recommended Reading
 
-* Andreessen, Marc. *Why Software is Eating the World*, 2011
-* Crouwel, Wim & Experimental Jetset. *Crouwelism*, 2003
-* Ford, Paul. *What is Code*, 2015
-* Galloway, Alexander. *Protocol*, 2006
-* Howe, Shay. *Box Model & Positioning*, 2014
-* Koolhaas, Rem. *Junkspace*, 2002
-* Lethem, Jonathan. *The Ecstasy of Influence*, 2007
-* Martens, Karel. *What Design Means for Me*, 1996
-* McHugh, Gene. *Post Internet: Can One be Bad at the Internet*?, 2010
-* Michaelson, Dan. *On Exactitude in Science*, 2007
-* Rock, Michael. *Multiple Signatures: On Designers, Authors, Readers and Users*, 2013
-* van der Velden, Daniel. *Research and Destroy*, 2006
+* [Marc Andreessen, *Why Software is Eating the World* (2011)](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FMarc_Andreessen-Why_Software_is_Eating_the_World.pdf?1515177762108)
+* [J. R. Carpenter, *A Handmade Web* (2015)](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FJ_R_Carpenter-A_Handmade_Web.pdf?1515176187160)
+* [Frank Chimero, *The Web's Grain* (2015)](https://frankchimero.com/writing/the-webs-grain/)
+* [Paul Ford, *What is Code* (2015)](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/)
+* [Alexander Galloway, *Protocol* (2006)](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FAlexander_Galloway-Protocol.pdf?1515177715033)
+* [Rob Giampietro, *Hover States* (2013)](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FRob_Giampietro-Hover_States.pdf?1515177659560)
+* [Jonathan Lethem, *The Ecstasy of Influence* (2007)](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FJonathan_Lethem-The_Ecstasy_of_Influence.pdf?1515177946329)
+* [Gene McHugh, *Post Internet: Can One be Bad at the Internet?* (2010)](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FGene_McHugh-Post_Internet_Can_One_be_Bad_at_the_Internet.pdf?1515177727094)
+* [Dan Michaelson, *On Exactitude in Science* (2007)](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FDan_Michaelson-On_Exactitude_in_Science.pdf?1515177705232)
+* [Daniel van der Velden, *The Meme* (2013)](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FDaniel_van_der_Velden-The_Meme.pdf?1515177659693)
+* [Mark Weiser and John Seely Brown, *The Coming Age of Calm Technology* (1996)](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FMark_Weiser_and_John_Seely_Brown-The_Coming_Age_of_Calm_Technology.pdf?1515177659656)
 
 
 ## Materials and Supplies
@@ -191,7 +179,6 @@ Work must be completed no later than the seventh week of the following fall seme
 
 
 ## Divisional, Program and Class Policies
-
 
 ### Responsibility
 
