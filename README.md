@@ -103,28 +103,34 @@ Working as a team, the class will design and develop a microsite to house the es
 |  **1** | 01/24 | Introduction, Review Syllabus, [Getting Started](https://github.com/griffiths/visualculture.tk/blob/master/getting_started.md), Working Environment | **Assignment:** Hello World <br>**Readings:** Alexander Galloway, *Protocol* (Chapter 1); Hito Steyerl, *In Defense of the Poor Image* |
 |  **2** | 01/30 | Fireside Chat: Justin Ouellette | **Due:** Hello World <br>**Assignments:** Presentation, Essay, Compendium <br>**Readings:** J. R. Carpenter, *A Handmade Web*; Mark Weiser & John Seely Brown, *The Coming Age of Calm Technology* |
 |  **3** | 02/06 | Workshop: Laurel Schwulst | **Readings:** Dan Michaelson, *On Exactitude in Science*; Muriel Cooper, *The New Graphic Languages* |
-|  **4** | 10/05 | Workshop: Publishing with GitHub Pages | **Readings:** Alan Kay, *User Interface: A Personal View*; Marc Andreessen, *Why Software Is Eating the World* |
-|  **5** | 10/12 | Workshop: LaiYee Lori & Alex Limpaecher | **Reading:** Paul Ford, *What is Code?* |
-|  **6** | 10/19 | Fireside Chat: Harry Gassel | **Readings:** Ellen Lupton, *The Designer as Producer*; Gene McHugh, *Post Internet: Can One be Bad at the Internet?* |
-|  **7** | 10/26 | Midterm Evaluations | **Reading:** Daniel van der Velden, *Research & Destroy* |
-|  **8** | 11/02 | Workshop: Jeffrey Alan Scudder <br>*Note: This class meets in 63 5th Ave., Rm. 304* | **Readings:** Paul Elliman, *Token-Resistance*; Rob Giampietro, *Hover States* |
-|  **9** | 11/09 | Studio Visit: Chris Pross (Wondersauce) | **Reading:** Keller Easterling, *Enduring Innocence* |
-| **10** | 11/16 | Lecture: Archie Lee Coates IV & Jeffrey Franklin (PLAYLAB, INC.) | **Reading:** Mr. Keedy, *Dumb Ideas* |
-| **11** | 11/21 | Workshop: Keith Venkiteswaran <br>*Note: This class meets on Tuesday, 11/21* | |
-| **12** | 11/30 | Lecture: TBA | **Reading:** Jonathan Lethem, *The Ecstasy of Influence* |
-| **13** | 12/07 | Workshop: TBA | |
-| **14** | 12/14 | Final Presentations | **Due:** Presentation, Essay, Compendium |
+|  **4** | 02/13 | Workshop: Publishing with GitHub Pages | **Readings:** Alan Kay, *User Interface: A Personal View*; Marc Andreessen, *Why Software Is Eating the World* |
+|  **5** | 02/20 | Workshop: LaiYee Lori & Alex Limpaecher | **Reading:** Paul Ford, *What is Code?* |
+|  **6** | 02/27 | Fireside Chat: Harry Gassel | **Readings:** Ellen Lupton, *The Designer as Producer*; Gene McHugh, *Post Internet: Can One be Bad at the Internet?* |
+|  **7** | 03/06 | Midterm Evaluations | **Reading:** Daniel van der Velden, *Research & Destroy* |
+|  **8** | 03/13 | Workshop: Jeffrey Alan Scudder <br>*Note: This class meets in 63 5th Ave., Rm. 304* | **Readings:** Paul Elliman, *Token-Resistance*; Rob Giampietro, *Hover States* |
+|  **9** | 03/27 | Studio Visit: Chris Pross (Wondersauce) | **Reading:** Keller Easterling, *Enduring Innocence* |
+| **10** | 04/03 | Lecture: Archie Lee Coates IV & Jeffrey Franklin (PLAYLAB, INC.) | **Reading:** Mr. Keedy, *Dumb Ideas* |
+| **11** | 04/10 | Workshop: Keith Venkiteswaran <br>*Note: This class meets on Tuesday, 11/21* | |
+| **12** | 04/17 | Lecture: TBA | **Reading:** Jonathan Lethem, *The Ecstasy of Influence* |
+| **13** | 04/24 | Workshop: TBA | |
+| **14** | 05/01 | Final Presentations | **Due:** Presentation, Essay, Compendium |
+| **15** | 05/08 | Final Presentations | **Due:** Presentation, Essay, Compendium |
 
 
 ## Recommended Reading
 
-* Armstrong, Helen. *Digital Design Theory*. New York: Princeton Architectural Press, 2016
-* Berger, John. *Ways of Seeing*. London: Penguin, 1972
-* Dondis, Donis A. *A Primer of Visual Literacy* Cambridge: MIT Press, 1973
-* McHugh, Gene. *Post Internet*. Brescia: LINK Editions, 2011.
-* Munari, Bruno. *Design as Art*. London: Penguin, 1966
-* Rock, Michael. *Multiple Signatures: On Designers, Authors, Readers and Users*. New York: Rizzoli, 2013
-* Turabian, Kate. *A Manual for Writers of Term Papers, Theses and Dissertations*. Chicago: University of Chicago Press, 1996.
+* Andreessen, Marc. *Why Software is Eating the World*, 2011
+* Crouwel, Wim & Experimental Jetset. *Crouwelism*, 2003
+* Ford, Paul. *What is Code*, 2015
+* Galloway, Alexander. *Protocol*, 2006
+* Howe, Shay. *Box Model & Positioning*, 2014
+* Koolhaas, Rem. *Junkspace*, 2002
+* Lethem, Jonathan. *The Ecstasy of Influence*, 2007
+* Martens, Karel. *What Design Means for Me*, 1996
+* McHugh, Gene. *Post Internet: Can One be Bad at the Internet*?, 2010
+* Michaelson, Dan. *On Exactitude in Science*, 2007
+* Rock, Michael. *Multiple Signatures: On Designers, Authors, Readers and Users*, 2013
+* van der Velden, Daniel. *Research and Destroy*, 2006
 
 
 ## Materials and Supplies
@@ -153,19 +159,18 @@ The Making Center is a constellation of shops, labs, and open workspaces that ar
 A student’s final grades and GPA are calculated using a 4.0 scale. Please note that while both are listed here, the 4.0 scale does not align mathematically with the numeric scale based on percentages of 100 points.
 
 
-| Grade | GPA Calculation    | Description                                                                         |
-| :---- | :----------------- | :---------------------------------------------------------------------------------- |
-| `A`   | `[4.0; 95 – 100%]` | Work of exceptional quality, which often goes beyond the stated goals of the course |
-| `A-`  | `[3.7; 90 – <95%]` | Work of very high quality                                                            |
-| `B+`  | `[3.3; 87 – <90%]` | Work of high quality that indicates higher than average abilities                   |
-| `B`   | `[3.0; 83 – <87%]` | Very good work that satisfies the goals of the course                               |
-| `B-`  | `[2.7; 80 – <83%]` | Good work                                                                           |
-| `C+`  | `[2.3; 77 – <80%]` | Above-average work                                                                  |
-| `C`   | `[2.0; 73 – <77%]` | Average work that indicates an understanding of the course material; passable       |
-|       |                    | *Satisfactory completion of a course is considered to be a grade of C or higher.*   |
-| `C-`  | `[1.7; 70 – <73%]` | Passing work but below good academic standing                                       |
-| `D`   | `[1.0; 60 – <70%]` | Below-average work that indicates a student does not fully understand the assignments; Probation level though passing for credit |
-| `F`   | `[0.0; 0 – <60%]`  | Failure, no credit                                                                  |
+| Grade | GPA Calculation       | Description                                                                         |
+| :---- | :-------------------- | :---------------------------------------------------------------------------------- |
+| `A`   | `4.0` <br>*95 – 100%* | Work of exceptional quality, which often goes beyond the stated goals of the course |
+| `A-`  | `3.7` <br>*90 – <95%* | Work of very high quality                                                            |
+| `B+`  | `3.3` <br>*87 – <90%* | Work of high quality that indicates higher than average abilities                   |
+| `B`   | `3.0` <br>*83 – <87%* | Very good work that satisfies the goals of the course                               |
+| `B-`  | `2.7` <br>*80 – <83%* | Good work                                                                           |
+| `C+`  | `2.3` <br>*77 – <80%* | Above-average work                                                                  |
+| `C`   | `2.0` <br>*73 – <77%* | Average work that indicates an understanding of the course material; passable <br>*Satisfactory completion of a course is considered to be a grade of C or higher.*      |
+| `C-`  | `1.7` <br>*70 – <73%* | Passing work but below good academic standing                                       |
+| `D`   | `1.0` <br>*60 – <70%* | Below-average work that indicates a student does not fully understand the assignments; Probation level though passing for credit |
+| `F`   | `0.0` <br>*0 – <60%*  | Failure, no credit                                                                  |
 
 
 ### Grade of W
