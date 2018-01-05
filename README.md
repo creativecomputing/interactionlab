@@ -70,7 +70,7 @@ Build an index page for yourself using the structure and tags we have duscussed 
 
 ### Hi, My Name Is
 
-Write an essay in response to a lecture, workshop, or reading we have engaged with over the course of the semester. Your essay can be of any length you choose, but should be a minimum of 500 words. 
+Design a website, using HTML only, which introduces yourself to the class. Your website should consist of at least 10 individual pages, and should reveal at least 10 facts about yourself, other than your name.
 
 
 ## Final Grade Calculation
@@ -95,11 +95,11 @@ Write an essay in response to a lecture, workshop, or reading we have engaged wi
 |  **4** | 02/13 | CSS Continued, The Box Model, Using the Web Inspector | **Reading:** [Rob Giampietro, *Hover States*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FRob_Giampietro-Hover_States.pdf?1515177659560) |
 |  **5** | 02/20 | Advanced CSS | **Reading:** [J. R. Carpenter, *A Handmade Web*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FJ_R_Carpenter-A_Handmade_Web.pdf?1515176187160) |
 |  **6** | 02/27 | HTML and CSS Review | |
-|  **7** | 03/06 | Midterm Evaluations | **Reading:** [Jonathan Lethem, *The Ecstasy of Influence* (2007)](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FJonathan_Lethem-The_Ecstasy_of_Influence.pdf?1515177946329) |
+|  **7** | 03/06 | Midterm Evaluations | **Reading:** [Jonathan Lethem, *The Ecstasy of Influence*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FJonathan_Lethem-The_Ecstasy_of_Influence.pdf?1515177946329) |
 |  **8** | 03/13 | Introduction to JavaScript (JS) | **Reading:** [Paul Ford, *What is Code*](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/) |
 |  **9** | 03/27 | JS Continued | **Reading:** [Frank Chimero, *The Web's Grain*](https://frankchimero.com/writing/the-webs-grain/) |
 | **10** | 04/03 | Advanced JS | **Reading:** [Mark Weiser and John Seely Brown, *The Coming Age of Calm Technology*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FMark_Weiser_and_John_Seely_Brown-The_Coming_Age_of_Calm_Technology.pdf?1515177659656) |
-| **11** | 04/10 | Introduction to jQuery, DOM Manipulation | **Reading:** * [Daniel van der Velden, *The Meme*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FDaniel_van_der_Velden-The_Meme.pdf?1515177659693) |
+| **11** | 04/10 | Introduction to jQuery, DOM Manipulation | **Reading:** [Daniel van der Velden, *The Meme*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FDaniel_van_der_Velden-The_Meme.pdf?1515177659693) |
 | **12** | 04/17 | Domain Names, Putting it All Together | **Reading:** [Gene McHugh, *Post Internet: Can One be Bad at the Internet?*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FGene_McHugh-Post_Internet_Can_One_be_Bad_at_the_Internet.pdf?1515177727094) |
 | **13** | 04/24 | Final Project Work Session | |
 | **14** | 05/01 | Final Project Work Session | |
