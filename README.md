@@ -87,22 +87,22 @@ Write an essay in response to a lecture, workshop, or reading we have engaged wi
 
 ## Course Outline
 
-|   Week | Date  | Topic or Activity | Assignments and Reading |
-| :----: | :---: | :---------------- | :---------------------- |
-|  **1** | 01/24 | Introduction, Review Syllabus, Getting Started, Working Environment | **Assignment:** Hi, My Name Is <br>**Readings:** Alexander Galloway, *Protocol* (Chapter 1) |
-|  **2** | 01/30 | Fireside Chat: Justin Ouellette | **Due:** Hello World <br>**Assignments:** Presentation, Essay, Compendium <br>**Readings:** J. R. Carpenter, *A Handmade Web*; Mark Weiser & John Seely Brown, *The Coming Age of Calm Technology* |
-|  **3** | 02/06 | Workshop: Laurel Schwulst | **Readings:** Dan Michaelson, *On Exactitude in Science*; Muriel Cooper, *The New Graphic Languages* |
-|  **4** | 02/13 | Workshop: Publishing with GitHub Pages | **Readings:** Alan Kay, *User Interface: A Personal View*; Marc Andreessen, *Why Software Is Eating the World* |
-|  **5** | 02/20 | Workshop: LaiYee Lori & Alex Limpaecher | **Reading:** Paul Ford, *What is Code?* |
-|  **6** | 02/27 | Fireside Chat: Harry Gassel | **Readings:** Ellen Lupton, *The Designer as Producer*; Gene McHugh, *Post Internet: Can One be Bad at the Internet?* |
-|  **7** | 03/06 | Midterm Evaluations | **Reading:** Daniel van der Velden, *Research & Destroy* |
-|  **8** | 03/13 | Workshop: Jeffrey Alan Scudder <br>*Note: This class meets in 63 5th Ave., Rm. 304* | **Readings:** Paul Elliman, *Token-Resistance*; Rob Giampietro, *Hover States* |
-|  **9** | 03/27 | Studio Visit: Chris Pross (Wondersauce) | **Reading:** Keller Easterling, *Enduring Innocence* |
-| **10** | 04/03 | Lecture: Archie Lee Coates IV & Jeffrey Franklin (PLAYLAB, INC.) | **Reading:** Mr. Keedy, *Dumb Ideas* |
-| **11** | 04/10 | Workshop: Keith Venkiteswaran <br>*Note: This class meets on Tuesday, 11/21* | |
-| **12** | 04/17 | Lecture: TBA | **Reading:** Jonathan Lethem, *The Ecstasy of Influence* |
-| **13** | 04/24 | Workshop: TBA | |
-| **14** | 05/01 | Final Presentations | **Due:** Presentation, Essay, Compendium |
+|   Week | Date  | Topic or Activity | Assignments and Readings |
+| :----: | :---: | :---------------- | :----------------------- |
+|  **1** | 01/24 | Introduction, Review Syllabus, Getting Started, Working Environment | **Assignment:** Hi, My Name Is <br>**Reading:** [Alexander Galloway, *Protocol*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FAlexander_Galloway-Protocol.pdf?1515177715033) |
+|  **2** | 01/30 | Hyper Text Markup Language (HTML), Links, Images | **Due:** Hello World <br>**Assignments:** Presentation, Essay, Compendium <br>**Reading:** [Marc Andreessen, *Why Software is Eating the World*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FMarc_Andreessen-Why_Software_is_Eating_the_World.pdf?1515177762108) |
+|  **3** | 02/06 | Introduction to Cascading Style Sheets (CSS) | **Reading:** [Dan Michaelson, *On Exactitude in Science*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FDan_Michaelson-On_Exactitude_in_Science.pdf?1515177705232) |
+|  **4** | 02/13 | CSS Continued, The Box Model, Using the Web Inspector | **Reading:** [Rob Giampietro, *Hover States*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FRob_Giampietro-Hover_States.pdf?1515177659560) |
+|  **5** | 02/20 | Advanced CSS | **Reading:** [J. R. Carpenter, *A Handmade Web*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FJ_R_Carpenter-A_Handmade_Web.pdf?1515176187160) |
+|  **6** | 02/27 | HTML and CSS Review | |
+|  **7** | 03/06 | Midterm Evaluations | **Reading:** [Jonathan Lethem, *The Ecstasy of Influence* (2007)](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FJonathan_Lethem-The_Ecstasy_of_Influence.pdf?1515177946329) |
+|  **8** | 03/13 | Introduction to JavaScript (JS) | **Reading:** [Paul Ford, *What is Code*](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/) |
+|  **9** | 03/27 | JS Continued | **Reading:** [Frank Chimero, *The Web's Grain*](https://frankchimero.com/writing/the-webs-grain/) |
+| **10** | 04/03 | Advanced JS | **Reading:** [Mark Weiser and John Seely Brown, *The Coming Age of Calm Technology*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FMark_Weiser_and_John_Seely_Brown-The_Coming_Age_of_Calm_Technology.pdf?1515177659656) |
+| **11** | 04/10 | Introduction to jQuery, DOM Manipulation | **Reading:** * [Daniel van der Velden, *The Meme*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FDaniel_van_der_Velden-The_Meme.pdf?1515177659693) |
+| **12** | 04/17 | Domain Names, Putting it All Together | **Reading:** [Gene McHugh, *Post Internet: Can One be Bad at the Internet?*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FGene_McHugh-Post_Internet_Can_One_be_Bad_at_the_Internet.pdf?1515177727094) |
+| **13** | 04/24 | Final Project Work Session | |
+| **14** | 05/01 | Final Project Work Session | |
 | **15** | 05/08 | Final Presentations | **Due:** Presentation, Essay, Compendium |
 
 
