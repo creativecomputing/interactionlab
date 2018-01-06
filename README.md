@@ -75,7 +75,7 @@ Design a website, using HTML only, which introduces yourself to the class. Your 
 
 ## Final Grade Calculation
 
-| Assessment                         |        % |
+| **Assessment**                         |        **%** |
 | :--------------------------------- | -------: |
 | Attendance and Class Participation |      30% |
 | Home Page                          |       5% |
@@ -87,7 +87,7 @@ Design a website, using HTML only, which introduces yourself to the class. Your 
 
 ## Course Outline
 
-|   Week | Date  | Topic or Activity | Assignments and Readings |
+|   **Week** | **Date**  | **Topic or Activity** | **Assignments and Readings** |
 | :----: | :---: | :---------------- | :----------------------- |
 |  **1** | 01/24 | Introduction, Review Syllabus, Getting Started, Working Environment | **Assignments:** Home Page, Hi, My Name Is <br>**Reading:** [Alexander Galloway, *Protocol*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FAlexander_Galloway-Protocol.pdf?1515177715033) |
 |  **2** | 01/30 | Hyper Text Markup Language (HTML), Links, Images | **Due:** Hi, My Name Is <br>**Reading:** [Marc Andreessen, *Why Software is Eating the World*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FMarc_Andreessen-Why_Software_is_Eating_the_World.pdf?1515177762108) |
@@ -150,7 +150,7 @@ The Making Center is a constellation of shops, labs, and open workspaces that ar
 A student’s final grades and GPA are calculated using a 4.0 scale. Please note that while both are listed here, the 4.0 scale does not align mathematically with the numeric scale based on percentages of 100 points.
 
 
-| Grade | GPA Calculation | Description |
+| **Grade** | **GPA Calculation** | **Description** |
 | :---- | :-------------- | :---------- |
 | `A`   | `4.0` <br>*95 – 100%* | Work of exceptional quality, which often goes beyond the stated goals of the course |
 | `A-`  | `3.7` <br>*90 – <95%* | Work of very high quality |
