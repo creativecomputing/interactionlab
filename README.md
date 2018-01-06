@@ -89,9 +89,9 @@ Design a website, using HTML only, which introduces yourself to the class. Your 
 
 |   Week | Date  | Topic or Activity | Assignments and Readings |
 | :----: | :---: | :---------------- | :----------------------- |
-|  **1** | 01/24 | Introduction, Review Syllabus, Getting Started, Working Environment | **Assignment:** Hi, My Name Is <br>**Reading:** [Alexander Galloway, *Protocol*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FAlexander_Galloway-Protocol.pdf?1515177715033) |
-|  **2** | 01/30 | Hyper Text Markup Language (HTML), Links, Images | **Due:** Hello World <br>**Assignments:** Presentation, Essay, Compendium <br>**Reading:** [Marc Andreessen, *Why Software is Eating the World*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FMarc_Andreessen-Why_Software_is_Eating_the_World.pdf?1515177762108) |
-|  **3** | 02/06 | Introduction to Cascading Style Sheets (CSS) | **Reading:** [Dan Michaelson, *On Exactitude in Science*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FDan_Michaelson-On_Exactitude_in_Science.pdf?1515177705232) |
+|  **1** | 01/24 | Introduction, Review Syllabus, Getting Started, Working Environment | **Assignments:** Home Page, Hi, My Name Is <br>**Reading:** [Alexander Galloway, *Protocol*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FAlexander_Galloway-Protocol.pdf?1515177715033) |
+|  **2** | 01/30 | Hyper Text Markup Language (HTML), Links, Images | **Due:** Hi, My Name Is <br>**Reading:** [Marc Andreessen, *Why Software is Eating the World*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FMarc_Andreessen-Why_Software_is_Eating_the_World.pdf?1515177762108) |
+|  **3** | 02/06 | Introduction to Cascading Style Sheets (CSS) | **Due:** Hi, My Name Is (Revised) <br>**Reading:** [Dan Michaelson, *On Exactitude in Science*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FDan_Michaelson-On_Exactitude_in_Science.pdf?1515177705232) |
 |  **4** | 02/13 | CSS Continued, The Box Model, Using the Web Inspector | **Reading:** [Rob Giampietro, *Hover States*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FRob_Giampietro-Hover_States.pdf?1515177659560) |
 |  **5** | 02/20 | Advanced CSS | **Reading:** [J. R. Carpenter, *A Handmade Web*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FJ_R_Carpenter-A_Handmade_Web.pdf?1515176187160) |
 |  **6** | 02/27 | HTML and CSS Review | |
@@ -130,9 +130,12 @@ Students are required to obtain a free account at Glitch (<https://glitch.com/>)
 
 The university provides many resources to help students achieve academic and artistic excellence. These resources include:
 
-* The University (and associated) Libraries: <http://library.newschool.edu/>
-* The University Learning Center: <https://www.newschool.edu/university-learning-center/>
-* University Disabilities Service: <https://www.newschool.edu/student-disability-services/>
+* The University (and associated) Libraries:  
+<http://library.newschool.edu/>
+* The University Learning Center:  
+<https://www.newschool.edu/university-learning-center/>
+* University Disabilities Service:  
+<https://www.newschool.edu/student-disability-services/>
 
 In keeping with the university’s policy of providing equal access for students with disabilities, any student with a disability who needs academic accommodations is welcome to meet with me privately. All conversations will be kept confidential. Students requesting any accommodations will also need to contact Student Disability Service (SDS). SDS will conduct an intake and, if appropriate, the Director will provide an academic accommodation notification letter for you to bring to me. At that point, I will review the letter with you and discuss these accommodations in relation to this course.
 
@@ -147,18 +150,18 @@ The Making Center is a constellation of shops, labs, and open workspaces that ar
 A student’s final grades and GPA are calculated using a 4.0 scale. Please note that while both are listed here, the 4.0 scale does not align mathematically with the numeric scale based on percentages of 100 points.
 
 
-| Grade | GPA Calculation       | Description                                                                         |
-| :---- | :-------------------- | :---------------------------------------------------------------------------------- |
+| Grade | GPA Calculation | Description |
+| :---- | :-------------- | :---------- |
 | `A`   | `4.0` <br>*95 – 100%* | Work of exceptional quality, which often goes beyond the stated goals of the course |
-| `A-`  | `3.7` <br>*90 – <95%* | Work of very high quality                                                            |
-| `B+`  | `3.3` <br>*87 – <90%* | Work of high quality that indicates higher than average abilities                   |
-| `B`   | `3.0` <br>*83 – <87%* | Very good work that satisfies the goals of the course                               |
-| `B-`  | `2.7` <br>*80 – <83%* | Good work                                                                           |
-| `C+`  | `2.3` <br>*77 – <80%* | Above-average work                                                                  |
-| `C`   | `2.0` <br>*73 – <77%* | Average work that indicates an understanding of the course material; passable <br>*Satisfactory completion of a course is considered to be a grade of C or higher.*      |
-| `C-`  | `1.7` <br>*70 – <73%* | Passing work but below good academic standing                                       |
+| `A-`  | `3.7` <br>*90 – <95%* | Work of very high quality |
+| `B+`  | `3.3` <br>*87 – <90%* | Work of high quality that indicates higher than average abilities |
+| `B`   | `3.0` <br>*83 – <87%* | Very good work that satisfies the goals of the course |
+| `B-`  | `2.7` <br>*80 – <83%* | Good work |
+| `C+`  | `2.3` <br>*77 – <80%* | Above-average work |
+| `C`   | `2.0` <br>*73 – <77%* | Average work that indicates an understanding of the course material; passable <br>*Satisfactory completion of a course is considered to be a grade of C or higher.* |
+| `C-`  | `1.7` <br>*70 – <73%* | Passing work but below good academic standing |
 | `D`   | `1.0` <br>*60 – <70%* | Below-average work that indicates a student does not fully understand the assignments; Probation level though passing for credit |
-| `F`   | `0.0` <br>*0 – <60%*  | Failure, no credit                                                                  |
+| `F`   | `0.0` <br>*0 – <60%*  | Failure, no credit |
 
 
 ### Grade of W
@@ -218,8 +221,7 @@ The use of electronic devices (phones, tablets, laptops, cameras, etc.) is permi
 
 Compromising your academic integrity may lead to serious consequences, including (but not limited to) one or more of the following: failure of the assignment, failure of the course, academic warning, disciplinary probation, suspension from the university, or dismissal from the university.
 
-Students are responsible for understanding the University’s policy on academic honesty and integrity and must make use of proper citations of sources for writing papers, creating, presenting, and performing their work, taking examinations, and doing research. It is the responsibility of students to learn the procedures specific to their discipline for correctly and appropriately differentiating their own work from that of others. The full text of the policy, including adjudication procedures, is found at
-<https://www.newschool.edu/about/university-resources/policies/>. Resources regarding what plagiarism is and how to avoid it can be found on the Learning Center’s website: <https://www.newschool.edu/university-learning-center/student-resources/>.
+Students are responsible for understanding the University’s policy on academic honesty and integrity and must make use of proper citations of sources for writing papers, creating, presenting, and performing their work, taking examinations, and doing research. It is the responsibility of students to learn the procedures specific to their discipline for correctly and appropriately differentiating their own work from that of others. The full text of the policy, including adjudication procedures, is found at <https://www.newschool.edu/about/university-resources/policies/>. Resources regarding what plagiarism is and how to avoid it can be found on the Learning Center’s website: <https://www.newschool.edu/university-learning-center/student-resources/>.
 
 The New School views “academic honesty and integrity” as the duty of every member of an academic community to claim authorship for his or her own work and only for that work, and to recognize the contributions of others accurately and completely. This obligation is fundamental to the integrity of intellectual debate, and creative and academic pursuits. Academic honesty and integrity includes accurate use of quotations, as well as appropriate and explicit citation of sources in instances of paraphrasing and describing ideas, or reporting on research findings or any aspect of the work of others (including that of faculty members and other students). Academic dishonesty results from infractions of this “accurate use”. The standards of academic honesty and integrity, and citation of sources, apply to all forms of academic work, including submissions of drafts of final papers or projects. All members of the University community are expected to conduct themselves in accord with the standards of academic honesty and integrity. Please see the complete policy in the Parsons Catalog.
 
