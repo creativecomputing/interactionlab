@@ -75,7 +75,7 @@ Design a website, using HTML only, which introduces yourself to the class. Your 
 
 ## Final Grade Calculation
 
-| **Assessment**                         |        **%** |
+| **Assessment**                     |    **%** |
 | :--------------------------------- | -------: |
 | Attendance and Class Participation |      30% |
 | Home Page                          |       5% |
@@ -103,7 +103,7 @@ Design a website, using HTML only, which introduces yourself to the class. Your 
 | **12** | 04/17 | Domain Names, Putting it All Together | **Reading:** [Gene McHugh, *Post Internet: Can One be Bad at the Internet?*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FGene_McHugh-Post_Internet_Can_One_be_Bad_at_the_Internet.pdf?1515177727094) |
 | **13** | 04/24 | Final Project Work Session | |
 | **14** | 05/01 | Final Project Work Session | |
-| **15** | 05/08 | Final Presentations | **Due:** Presentation, Essay, Compendium |
+| **15** | 05/08 | Final Presentations | **Due:** Home Page |
 
 
 ## Recommended Reading
