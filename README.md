@@ -1,7 +1,6 @@
 Parsons School of Design  
 BFA Communication Design
 
-
 # Core Lab Interaction
 
 PUCD 2126; CRN 3185  
@@ -17,11 +16,9 @@ Office hours by appointment only
 
 Course homepage: <https://interactionlab.glitch.me/>
 
-
 ## Course Description
 
 This course serves as a complement to Core Studio Interaction. The assignments are build to work in tandem with the projects students are developing in the studio class. The lab is designed around a series of small workshops that teach beginning and intermediate interaction design through a hands-on engagement with HTML and CSS.
-
 
 ## Learning Outcomes
 
@@ -59,42 +56,44 @@ This course serves as a complement to Core Studio Interaction. The assignments a
     * Use in-browser tools to troubleshoot and amend HTML/CSS
     * Search engine optimization
     * The role of content management systems / blog systems
-    
 
 ## Assessable Tasks
 
-### Home Page
+### Homepage
 
-Build an index page for yourself using the structure and tags we have duscussed thus far in class. Consider how the page could reflect your particular design sensibility. We will be using this page as a springboard to link to the projects you make this semester, so think about how the structure could evolve to accommodate a living archive of work.
-
+Build an index page for yourself using the structure and tags we have duscussed thus far in class. Consider how the page could reflect your particular design sensibility. We will be using this page as a springboard to link to the projects you make this semester, so think about how the structure could evolve to accommodate a living archive of work. *Due: May 8*
 
 ### Hi, My Name Is
 
-Design a website, using HTML only, which introduces yourself to the class. Your website should consist of at least 10 individual pages, and should reveal at least 10 facts about yourself, other than your name.
+Design a website, using only HTML, which introduces yourself to the class. Your website should consist of at least 10 individual pages, and should reveal at least 10 facts about yourself, other than your name. *Due: January 30*
 
+### Class Page
+
+Using the existing HTML structure of our course homepage, create your own stylesheet for the site. Consider how the information it contains could become more legible or useful by changing the arrangement, color, or size of the elements on the page. *Due: February 27*
+
+### 
 
 ## Final Grade Calculation
 
 | **Assessment**                     |    **%** |
 | :--------------------------------- | -------: |
 | Attendance and Class Participation |      30% |
-| Home Page                          |       5% |
+| Homepage                           |       5% |
 | Hi, My Name Is                     |       5% |
-| Presentation                       |      20% |
+| Class Page                         |      20% |
 | Compendium                         |      25% |
 | **Total**                          | **100%** |
-
 
 ## Course Outline
 
 |   **Week** | **Date**  | **Topic or Activity** | **Assignments and Readings** |
 | :----: | :---: | :---------------- | :----------------------- |
-|  **1** | 01/24 | Introduction, Review Syllabus, Getting Started, Working Environment | **Assignments:** Home Page, Hi, My Name Is <br>**Reading:** [Alexander Galloway, *Protocol*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FAlexander_Galloway-Protocol.pdf?1515177715033) |
+|  **1** | 01/24 | Introduction, Review Syllabus, Getting Started, Working Environment | **Assignments:** Homepage, Hi, My Name Is <br>**Reading:** [Alexander Galloway, *Protocol*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FAlexander_Galloway-Protocol.pdf?1515177715033) |
 |  **2** | 01/30 | Hyper Text Markup Language (HTML), Links, Images | **Due:** Hi, My Name Is <br>**Reading:** [Marc Andreessen, *Why Software is Eating the World*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FMarc_Andreessen-Why_Software_is_Eating_the_World.pdf?1515177762108) |
-|  **3** | 02/06 | Introduction to Cascading Style Sheets (CSS) | **Due:** Hi, My Name Is (Revised) <br>**Reading:** [Dan Michaelson, *On Exactitude in Science*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FDan_Michaelson-On_Exactitude_in_Science.pdf?1515177705232) |
+|  **3** | 02/06 | Introduction to Cascading Style Sheets (CSS) | **Due:** Hi, My Name Is (Revised) <br>**Assignment:** Class Page <br>**Reading:** [Dan Michaelson, *On Exactitude in Science*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FDan_Michaelson-On_Exactitude_in_Science.pdf?1515177705232) |
 |  **4** | 02/13 | CSS Continued, The Box Model, Using the Web Inspector | **Reading:** [Rob Giampietro, *Hover States*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FRob_Giampietro-Hover_States.pdf?1515177659560) |
 |  **5** | 02/20 | Advanced CSS | **Reading:** [J. R. Carpenter, *A Handmade Web*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FJ_R_Carpenter-A_Handmade_Web.pdf?1515176187160) |
-|  **6** | 02/27 | HTML and CSS Review | |
+|  **6** | 02/27 | HTML and CSS Review | **Due:** Class Page |
 |  **7** | 03/06 | Midterm Evaluations | **Reading:** [Jonathan Lethem, *The Ecstasy of Influence*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FJonathan_Lethem-The_Ecstasy_of_Influence.pdf?1515177946329) |
 |  **8** | 03/13 | Introduction to JavaScript (JS) | **Reading:** [Paul Ford, *What is Code*](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/) |
 |  **9** | 03/27 | JS Continued | **Reading:** [Frank Chimero, *The Web's Grain*](https://frankchimero.com/writing/the-webs-grain/) |
@@ -103,7 +102,7 @@ Design a website, using HTML only, which introduces yourself to the class. Your 
 | **12** | 04/17 | Domain Names, Putting it All Together | **Reading:** [Gene McHugh, *Post Internet: Can One be Bad at the Internet?*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FGene_McHugh-Post_Internet_Can_One_be_Bad_at_the_Internet.pdf?1515177727094) |
 | **13** | 04/24 | Final Project Work Session | |
 | **14** | 05/01 | Final Project Work Session | |
-| **15** | 05/08 | Final Presentations | **Due:** Home Page |
+| **15** | 05/08 | Final Presentations | **Due:** Homepage |
 
 
 ## Recommended Reading
@@ -120,11 +119,9 @@ Design a website, using HTML only, which introduces yourself to the class. Your 
 * [Daniel van der Velden, *The Meme* (2013)](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FDaniel_van_der_Velden-The_Meme.pdf?1515177659693)
 * [Mark Weiser and John Seely Brown, *The Coming Age of Calm Technology* (1996)](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FMark_Weiser_and_John_Seely_Brown-The_Coming_Age_of_Calm_Technology.pdf?1515177659656)
 
-
 ## Materials and Supplies
 
 Students are required to obtain a free account at Glitch (<https://glitch.com/>) and bring their laptop to class each week.
-
 
 ## Resources
 
@@ -139,16 +136,13 @@ The university provides many resources to help students achieve academic and art
 
 In keeping with the university’s policy of providing equal access for students with disabilities, any student with a disability who needs academic accommodations is welcome to meet with me privately. All conversations will be kept confidential. Students requesting any accommodations will also need to contact Student Disability Service (SDS). SDS will conduct an intake and, if appropriate, the Director will provide an academic accommodation notification letter for you to bring to me. At that point, I will review the letter with you and discuss these accommodations in relation to this course.
 
-
 ## Making Center
 
 The Making Center is a constellation of shops, labs, and open workspaces that are situated across the New School to help students express their ideas in a variety of materials and methods. We have resources to help support woodworking, metalworking, ceramics and pottery work, photography and film, textiles, printmaking, 3D printing, manual and CNC machining, and more. A staff of technicians and student workers provide expertise and maintain the different shops and labs. Safety is a primary concern, so each area has policies for access, training, and etiquette that students and faculty should be familiar with. Many areas require specific orientations or trainings before access is granted. Detailed information about the resources available, as well as schedules, trainings, and policies can be found at <http://resources.parsons.edu/>.
 
-
 ## Grading Standards
 
 A student’s final grades and GPA are calculated using a 4.0 scale. Please note that while both are listed here, the 4.0 scale does not align mathematically with the numeric scale based on percentages of 100 points.
-
 
 | **Grade** | **GPA Calculation** | **Description** |
 | :---- | :-------------- | :---------- |
@@ -163,16 +157,13 @@ A student’s final grades and GPA are calculated using a 4.0 scale. Please note
 | `D`   | `1.0` <br>*60 – <70%* | Below-average work that indicates a student does not fully understand the assignments; Probation level though passing for credit |
 | `F`   | `0.0` <br>*0 – <60%*  | Failure, no credit |
 
-
 ### Grade of W
 
 The grade of W may be issued by the Office of the Registrar to a student who officially withdraws from a course within the applicable deadline. There is no academic penalty, but the grade will appear on the student transcript. A grade of W may also be issued by an instructor to a graduate student (except at Parsons and Mannes) who has not completed course requirements nor arranged for an Incomplete.
 
-
 ### Grade of Z
 
 The grade of Z is issued by an instructor to a student who has not attended or not completed all required work in a course but did not officially withdraw before the withdrawal deadline. It differs from an “F,” which would indicate that the student technically completed requirements but that the level of work did not qualify for a passing grade. 
-
 
 ### Grades of Incomplete
 
@@ -180,18 +171,15 @@ The grade of I, or temporary incomplete, may be granted to a student under unusu
 
 Work must be completed no later than the seventh week of the following fall semester for spring or summer term incompletes and no later than the seventh week of the following spring semester for fall term incompletes. Grades of “I” not revised in the prescribed time will be recorded as a final grade of “F” by the Office of the Registrar. 
 
-
 ## Divisional, Program and Class Policies
 
 ### Responsibility
 
 Students are responsible for all assignments, even if they are absent. Late assignments, failure to complete the assignments for class discussion and/or critique, and lack of preparedness for in-class discussions, presentations and/or critiques will jeopardize your successful completion of this course. 
 
-
 ### Participation
 
 Class participation is an essential part of class and includes: keeping up with reading, assignments, projects, contributing meaningfully to class discussions, active participation in group work, and coming to class regularly and on time. 
-
 
 ### Attendance
 
@@ -201,21 +189,17 @@ While attendance is just one aspect of active participation, absence from a sign
 
 Whether the course is a lecture, seminar or studio, faculty will assess each student’s performance against all of the assessment criteria in determining the student’s final grade.
 
-
 ### Canvas
 
 Use of Canvas may be an important resource for this class. Students should check it for announcements before coming to class each week. 
-
 
 ### Delays
 
 In rare instances, I may be delayed arriving to class. If I have not arrived by the time class is scheduled to start, you must wait a minimum of thirty minutes for my arrival. In the event that I will miss class entirely, a sign will be posted at the classroom indicating your assignment for the next class meeting.
 
-
 ### Electronic Devices
 
 The use of electronic devices (phones, tablets, laptops, cameras, etc.) is permitted when the device is being used in relation to the course's work. All other uses are prohibited in the classroom and devices should be turned off before class starts.
-
 
 ### Academic Honesty and Integrity
 
@@ -224,7 +208,6 @@ Compromising your academic integrity may lead to serious consequences, including
 Students are responsible for understanding the University’s policy on academic honesty and integrity and must make use of proper citations of sources for writing papers, creating, presenting, and performing their work, taking examinations, and doing research. It is the responsibility of students to learn the procedures specific to their discipline for correctly and appropriately differentiating their own work from that of others. The full text of the policy, including adjudication procedures, is found at <https://www.newschool.edu/about/university-resources/policies/>. Resources regarding what plagiarism is and how to avoid it can be found on the Learning Center’s website: <https://www.newschool.edu/university-learning-center/student-resources/>.
 
 The New School views “academic honesty and integrity” as the duty of every member of an academic community to claim authorship for his or her own work and only for that work, and to recognize the contributions of others accurately and completely. This obligation is fundamental to the integrity of intellectual debate, and creative and academic pursuits. Academic honesty and integrity includes accurate use of quotations, as well as appropriate and explicit citation of sources in instances of paraphrasing and describing ideas, or reporting on research findings or any aspect of the work of others (including that of faculty members and other students). Academic dishonesty results from infractions of this “accurate use”. The standards of academic honesty and integrity, and citation of sources, apply to all forms of academic work, including submissions of drafts of final papers or projects. All members of the University community are expected to conduct themselves in accord with the standards of academic honesty and integrity. Please see the complete policy in the Parsons Catalog.
-
 
 ### Intellectual Property Rights
 
