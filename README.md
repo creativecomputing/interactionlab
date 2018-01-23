@@ -71,7 +71,13 @@ Design a website, using only HTML, which introduces yourself to the class. Your 
 
 Using the existing HTML structure of our course homepage, create your own stylesheet for the site. Consider how the information it contains could become more legible or useful by changing the arrangement, color, or size of the elements on the page. *Due: February 27*
 
-### 
+### Difference and Repetition
+
+Select a piece of media and use CSS to style 20 differentiated repetitions of the media they've chosen. Repetitions will be rendered as “scenes” which can be traversed with a “control interface”. Experiment with a variety of methods for measurement, positioning, and sizing your chosen media. *Due: April 3*
+
+### Human Computer Interface
+
+Construct an interactive “toy” that receives input from a mouse or keyboard. The toy should either form a set of randomized outputs based on a standardized input, or precisely map expectations from input to output in a deterministic manner. *Due: May 8*
 
 ## Final Grade Calculation
 
@@ -80,8 +86,9 @@ Using the existing HTML structure of our course homepage, create your own styles
 | Attendance and Class Participation |      30% |
 | Homepage                           |       5% |
 | Hi, My Name Is                     |       5% |
-| Class Page                         |      20% |
-| Compendium                         |      25% |
+| Class Page                         |      10% |
+| Difference and Repetition          |      20% |
+| Human Computer Interface           |      30% |
 | **Total**                          | **100%** |
 
 ## Course Outline
@@ -93,16 +100,16 @@ Using the existing HTML structure of our course homepage, create your own styles
 |  **3** | 02/06 | Introduction to Cascading Style Sheets (CSS) | **Due:** Hi, My Name Is (Revised) <br>**Assignment:** Class Page <br>**Reading:** [Dan Michaelson, *On Exactitude in Science*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FDan_Michaelson-On_Exactitude_in_Science.pdf?1515177705232) |
 |  **4** | 02/13 | CSS Continued, The Box Model, Using the Web Inspector | **Reading:** [Rob Giampietro, *Hover States*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FRob_Giampietro-Hover_States.pdf?1515177659560) |
 |  **5** | 02/20 | Advanced CSS | **Reading:** [J. R. Carpenter, *A Handmade Web*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FJ_R_Carpenter-A_Handmade_Web.pdf?1515176187160) |
-|  **6** | 02/27 | HTML and CSS Review | **Due:** Class Page |
+|  **6** | 02/27 | HTML and CSS Review | **Due:** Class Page <br>**Assignment:** Difference and Repetition |
 |  **7** | 03/06 | Midterm Evaluations | **Reading:** [Jonathan Lethem, *The Ecstasy of Influence*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FJonathan_Lethem-The_Ecstasy_of_Influence.pdf?1515177946329) |
 |  **8** | 03/13 | Introduction to JavaScript (JS) | **Reading:** [Paul Ford, *What is Code*](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/) |
 |  **9** | 03/27 | JS Continued | **Reading:** [Frank Chimero, *The Web's Grain*](https://frankchimero.com/writing/the-webs-grain/) |
-| **10** | 04/03 | Advanced JS | **Reading:** [Mark Weiser and John Seely Brown, *The Coming Age of Calm Technology*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FMark_Weiser_and_John_Seely_Brown-The_Coming_Age_of_Calm_Technology.pdf?1515177659656) |
+| **10** | 04/03 | Advanced JS | **Due:** Difference and Repetition <br>**Assignment:** Human Computer Interface <br>**Reading:** [Mark Weiser and John Seely Brown, *The Coming Age of Calm Technology*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FMark_Weiser_and_John_Seely_Brown-The_Coming_Age_of_Calm_Technology.pdf?1515177659656) |
 | **11** | 04/10 | Introduction to jQuery, DOM Manipulation | **Reading:** [Daniel van der Velden, *The Meme*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FDaniel_van_der_Velden-The_Meme.pdf?1515177659693) |
 | **12** | 04/17 | Domain Names, Putting it All Together | **Reading:** [Gene McHugh, *Post Internet: Can One be Bad at the Internet?*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FGene_McHugh-Post_Internet_Can_One_be_Bad_at_the_Internet.pdf?1515177727094) |
 | **13** | 04/24 | Final Project Work Session | |
 | **14** | 05/01 | Final Project Work Session | |
-| **15** | 05/08 | Final Presentations | **Due:** Homepage |
+| **15** | 05/08 | Final Presentations | **Due:** Homepage, Human Computer Interface |
 
 
 ## Recommended Reading
