@@ -93,8 +93,8 @@ Construct an interactive “toy” that receives input from a mouse or keyboard.
 
 ## Course Outline
 
-|   **Week** | **Date**  | **Topic or Activity** | **Assignments and Readings** |
-| :----: | :---: | :---------------- | :----------------------- |
+| **Week** | **Date** | **Topic or Activity** | **Assignments and Readings** |
+| :---- | :--- | :---------------- | :----------------------- |
 |  **1** | 01/24 | Introduction, Review Syllabus, Getting Started, Working Environment | **Assignments:** Homepage, Hi, My Name Is <br>**Reading:** [Alexander Galloway, *Protocol*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FAlexander_Galloway-Protocol.pdf?1515177715033) |
 |  **2** | 01/30 | Hyper Text Markup Language (HTML), Links, Images | **Due:** Hi, My Name Is <br>**Reading:** [Marc Andreessen, *Why Software is Eating the World*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FMarc_Andreessen-Why_Software_is_Eating_the_World.pdf?1515177762108) |
 |  **3** | 02/06 | Introduction to Cascading Style Sheets (CSS) | **Due:** Hi, My Name Is (Revised) <br>**Assignment:** Class Page <br>**Reading:** [Dan Michaelson, *On Exactitude in Science*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FDan_Michaelson-On_Exactitude_in_Science.pdf?1515177705232) |
@@ -107,10 +107,9 @@ Construct an interactive “toy” that receives input from a mouse or keyboard.
 | **10** | 04/03 | Advanced JS | **Due:** Difference and Repetition <br>**Assignment:** Human Computer Interface <br>**Reading:** [Mark Weiser and John Seely Brown, *The Coming Age of Calm Technology*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FMark_Weiser_and_John_Seely_Brown-The_Coming_Age_of_Calm_Technology.pdf?1515177659656) |
 | **11** | 04/10 | Introduction to jQuery, DOM Manipulation | **Reading:** [Daniel van der Velden, *The Meme*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FDaniel_van_der_Velden-The_Meme.pdf?1515177659693) |
 | **12** | 04/17 | Domain Names, Putting it All Together | **Reading:** [Gene McHugh, *Post Internet: Can One be Bad at the Internet?*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FGene_McHugh-Post_Internet_Can_One_be_Bad_at_the_Internet.pdf?1515177727094) |
-| **13** | 04/24 | Final Project Work Session | |
-| **14** | 05/01 | Final Project Work Session | |
+| **13** | 04/24 | Work Session | |
+| **14** | 05/01 | Work Session | |
 | **15** | 05/08 | Final Presentations | **Due:** Homepage, Human Computer Interface |
-
 
 ## Recommended Reading
 
@@ -151,8 +150,8 @@ The Making Center is a constellation of shops, labs, and open workspaces that ar
 
 A student’s final grades and GPA are calculated using a 4.0 scale. Please note that while both are listed here, the 4.0 scale does not align mathematically with the numeric scale based on percentages of 100 points.
 
-| **Grade** | **GPA Calculation** | **Description** |
-| :---- | :-------------- | :---------- |
+| **Grade** |                 | **Description**                                                       |
+| :-------- | :-------------- | :-------------------------------------------------------------------- |
 | `A`   | `4.0` <br>*95 – 100%* | Work of exceptional quality, which often goes beyond the stated goals of the course |
 | `A-`  | `3.7` <br>*90 – <95%* | Work of very high quality |
 | `B+`  | `3.3` <br>*87 – <90%* | Work of high quality that indicates higher than average abilities |
