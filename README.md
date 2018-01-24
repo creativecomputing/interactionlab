@@ -61,7 +61,7 @@ This course serves as a complement to Core Studio Interaction. The assignments a
 
 ### Homepage
 
-Build an index page for yourself using the structure and tags we have duscussed thus far in class. Consider how the page could reflect your particular design sensibility. We will be using this page as a springboard to link to the projects you make this semester, so think about how the structure could evolve to accommodate a living archive of work. *Due: May 8*
+Build an index page for yourself using the structure and tags we have discussed thus far in class. Consider how the page could reflect your particular design sensibility. We will be using this page as a springboard to link to the projects you make this semester, so think about how the structure could evolve to accommodate a living archive of work. *Due: May 8*
 
 ### Hi, My Name Is
 
@@ -69,7 +69,7 @@ Design a website, using only HTML, which introduces yourself to the class. Your 
 
 ### Class Page
 
-Using the existing HTML structure of our course homepage, create your own stylesheet for the site. Consider how the information it contains could become more legible or useful by changing the arrangement, color, or size of the elements on the page. *Due: February 27*
+Using the existing HTML structure of our course homepage, create your own CSS file for the site. Consider how the information it contains could become more legible or useful by changing the arrangement, color, or size of the elements on the page. *Due: February 27*
 
 ### Difference and Repetition
 
