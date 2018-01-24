@@ -61,23 +61,23 @@ This course serves as a complement to Core Studio Interaction. The assignments a
 
 ### Homepage
 
-Build an index page for yourself using the structure and tags we have discussed thus far in class. Consider how the page could reflect your particular design sensibility. We will be using this page as a springboard to link to the projects you make this semester, so think about how the structure could evolve to accommodate a living archive of work. *Due: May 8*
+Build an index page for yourself using the structure and tags we have discussed thus far in class. Consider how the page could reflect your particular design sensibility. We will be using this page as a springboard to link to the projects you make this semester, so think about how the structure could evolve to accommodate a living archive of work. *Due: May 9*
 
 ### Hi, My Name Is
 
-Design a website, using only HTML, which introduces yourself to the class. Your website should consist of at least 10 individual pages, and should reveal at least 10 facts about yourself, other than your name. *Due: January 30*
+Design a website, using only HTML, which introduces yourself to the class. Your website should consist of at least 10 individual pages, and should reveal at least 10 facts about yourself, other than your name. *Due: January 31*
 
 ### Class Page
 
-Using the existing HTML structure of our course homepage, create your own CSS file for the site. Consider how the information it contains could become more legible or useful by changing the arrangement, color, or size of the elements on the page. *Due: February 27*
+Using the existing HTML structure of our course homepage, create your own CSS file for the site. Consider how the information it contains could become more legible or useful by changing the arrangement, color, or size of the elements on the page. *Due: February 28*
 
 ### Difference and Repetition
 
-Select a piece of media and use CSS to style 20 differentiated repetitions of the media they've chosen. Repetitions will be rendered as “scenes” which can be traversed with a “control interface”. Experiment with a variety of methods for measurement, positioning, and sizing your chosen media. *Due: April 3*
+Select a piece of media and use CSS to style 20 differentiated repetitions of the media they've chosen. Repetitions will be rendered as “scenes” which can be traversed with a “control interface”. Experiment with a variety of methods for measurement, positioning, and sizing your chosen media. *Due: April 4*
 
 ### Human Computer Interface
 
-Construct an interactive “toy” that receives input from a mouse or keyboard. The toy should either form a set of randomized outputs based on a standardized input, or precisely map expectations from input to output in a deterministic manner. *Due: May 8*
+Construct an interactive “toy” that receives input from a mouse or keyboard. The toy should either form a set of randomized outputs based on a standardized input, or precisely map expectations from input to output in a deterministic manner. *Due: May 9*
 
 ## Final Grade Calculation
 
@@ -96,20 +96,20 @@ Construct an interactive “toy” that receives input from a mouse or keyboard.
 | **Week** | **Date** | **Topic or Activity** | **Assignments and Readings** |
 | :---- | :--- | :---------------- | :----------------------- |
 |  **1** | 01/24 | Introduction, Review Syllabus, Getting Started, Working Environment | **Assignments:** Homepage, Hi, My Name Is <br>**Reading:** [Alexander Galloway, *Protocol*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FAlexander_Galloway-Protocol.pdf?1515177715033) |
-|  **2** | 01/30 | Hyper Text Markup Language (HTML), Links, Images | **Due:** Hi, My Name Is <br>**Reading:** [Marc Andreessen, *Why Software is Eating the World*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FMarc_Andreessen-Why_Software_is_Eating_the_World.pdf?1515177762108) |
-|  **3** | 02/06 | Introduction to Cascading Style Sheets (CSS) | **Due:** Hi, My Name Is (Revised) <br>**Assignment:** Class Page <br>**Reading:** [Dan Michaelson, *On Exactitude in Science*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FDan_Michaelson-On_Exactitude_in_Science.pdf?1515177705232) |
-|  **4** | 02/13 | CSS Continued, The Box Model, Using the Web Inspector | **Reading:** [Rob Giampietro, *Hover States*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FRob_Giampietro-Hover_States.pdf?1515177659560) |
-|  **5** | 02/20 | Advanced CSS | **Reading:** [J. R. Carpenter, *A Handmade Web*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FJ_R_Carpenter-A_Handmade_Web.pdf?1515176187160) |
-|  **6** | 02/27 | HTML and CSS Review | **Due:** Class Page <br>**Assignment:** Difference and Repetition |
-|  **7** | 03/06 | Midterm Evaluations | **Reading:** [Jonathan Lethem, *The Ecstasy of Influence*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FJonathan_Lethem-The_Ecstasy_of_Influence.pdf?1515177946329) |
-|  **8** | 03/13 | Introduction to JavaScript (JS) | **Reading:** [Paul Ford, *What is Code*](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/) |
-|  **9** | 03/27 | JS Continued | **Reading:** [Frank Chimero, *The Web's Grain*](https://frankchimero.com/writing/the-webs-grain/) |
-| **10** | 04/03 | Advanced JS | **Due:** Difference and Repetition <br>**Assignment:** Human Computer Interface <br>**Reading:** [Mark Weiser and John Seely Brown, *The Coming Age of Calm Technology*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FMark_Weiser_and_John_Seely_Brown-The_Coming_Age_of_Calm_Technology.pdf?1515177659656) |
-| **11** | 04/10 | Introduction to jQuery, DOM Manipulation | **Reading:** [Daniel van der Velden, *The Meme*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FDaniel_van_der_Velden-The_Meme.pdf?1515177659693) |
-| **12** | 04/17 | Domain Names, Putting it All Together | **Reading:** [Gene McHugh, *Post Internet: Can One be Bad at the Internet?*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FGene_McHugh-Post_Internet_Can_One_be_Bad_at_the_Internet.pdf?1515177727094) |
-| **13** | 04/24 | Work Session | |
-| **14** | 05/01 | Work Session | |
-| **15** | 05/08 | Final Presentations | **Due:** Homepage, Human Computer Interface |
+|  **2** | 01/31 | Hyper Text Markup Language (HTML), Links, Images | **Due:** Hi, My Name Is <br>**Reading:** [Marc Andreessen, *Why Software is Eating the World*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FMarc_Andreessen-Why_Software_is_Eating_the_World.pdf?1515177762108) |
+|  **3** | 02/07 | Introduction to Cascading Style Sheets (CSS) | **Due:** Hi, My Name Is (Revised) <br>**Assignment:** Class Page <br>**Reading:** [Dan Michaelson, *On Exactitude in Science*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FDan_Michaelson-On_Exactitude_in_Science.pdf?1515177705232) |
+|  **4** | 02/14 | CSS Continued, The Box Model, Using the Web Inspector | **Reading:** [Rob Giampietro, *Hover States*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FRob_Giampietro-Hover_States.pdf?1515177659560) |
+|  **5** | 02/21 | Advanced CSS | **Reading:** [J. R. Carpenter, *A Handmade Web*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FJ_R_Carpenter-A_Handmade_Web.pdf?1515176187160) |
+|  **6** | 02/28 | HTML and CSS Review | **Due:** Class Page <br>**Assignment:** Difference and Repetition |
+|  **7** | 03/07 | Midterm Evaluations | **Reading:** [Jonathan Lethem, *The Ecstasy of Influence*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FJonathan_Lethem-The_Ecstasy_of_Influence.pdf?1515177946329) |
+|  **8** | 03/14 | Introduction to JavaScript (JS) | **Reading:** [Paul Ford, *What is Code*](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/) |
+|  **9** | 03/28 | JS Continued | **Reading:** [Frank Chimero, *The Web's Grain*](https://frankchimero.com/writing/the-webs-grain/) |
+| **10** | 04/04 | Advanced JS | **Due:** Difference and Repetition <br>**Assignment:** Human Computer Interface <br>**Reading:** [Mark Weiser and John Seely Brown, *The Coming Age of Calm Technology*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FMark_Weiser_and_John_Seely_Brown-The_Coming_Age_of_Calm_Technology.pdf?1515177659656) |
+| **11** | 04/11 | Introduction to jQuery, DOM Manipulation | **Reading:** [Daniel van der Velden, *The Meme*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FDaniel_van_der_Velden-The_Meme.pdf?1515177659693) |
+| **12** | 04/18 | Domain Names, Putting it All Together | **Reading:** [Gene McHugh, *Post Internet: Can One be Bad at the Internet?*](https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FGene_McHugh-Post_Internet_Can_One_be_Bad_at_the_Internet.pdf?1515177727094) |
+| **13** | 04/25 | Work Session | |
+| **14** | 05/02 | Work Session | |
+| **15** | 05/09 | Final Presentations | **Due:** Homepage, Human Computer Interface |
 
 ## Recommended Reading
 
