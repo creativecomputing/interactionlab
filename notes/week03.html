@@ -1,0 +1,83 @@
+<html>
+  <head>
+    <title>Core Lab Interaction - Week 3</title>
+  </head>
+  <body>
+    <h1>Week 3 Notes</h1>
+    
+      <h2 id="the-box-model">The Box Model</h2>
+
+<p>HTML elements (<code class="highlighter-rouge">div</code>, <code class="highlighter-rouge">a</code>, <code class="highlighter-rouge">li</code>, etc) are rendered as boxes by the browser. This is often referred to as the “box model”. Every HTML element (or box) on a page consists of: margins, borders, padding, and the actual content. The box model allows us to space elements in relation to other elements.</p>
+
+<p><img src="https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2Fbox_model.gif?1517983252293" alt="The Box Model" /></p>
+
+<p>The above illustrates the basic box model, consisting of Margin, Border, Padding and Content Width and Height.</p>
+
+<p><strong>Margin</strong> clears an area around the border. The margin does not have a background color, it is completely transparent.</p>
+
+<p><strong>Border</strong> wraps the padding and content. The border is affected by the background color of the box.</p>
+
+<p><strong>Padding</strong> clears an area around the content. The padding is affected by the background color of the box.</p>
+
+<h2 id="calculating-the-width-of-an-element">Calculating the width of an element</h2>
+
+<p>When you set the width and height properties of an element with CSS, you just set the width and height of the content area. To calculate the full size of an element, you must also add the padding, borders and margins.</p>
+
+<p><a class="jsbin-embed" href="http://jsbin.com/nezipe/1/embed?output&amp;height=150px">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script></p>
+
+<p>The CSS for the box above is as follows:</p>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">width</span><span class="nd">:250px</span><span class="o">;</span>
+<span class="nt">padding</span><span class="nd">:10px</span><span class="o">;</span>
+<span class="nt">border</span><span class="nd">:5px</span> <span class="nt">solid</span> <span class="nt">gray</span><span class="o">;</span>
+<span class="nt">margin</span><span class="nd">:10px</span><span class="o">;</span></code></pre></figure>
+
+<p>To calculate the total width we would add the following:</p>
+
+<ul>
+  <li>250px (width)</li>
+  <li>20px  (left and right padding)</li>
+  <li>10px  (left and right border)</li>
+  <li>20px  (left and right margin)
+=  300px`</li>
+</ul>
+
+<h2 id="floating">Floating</h2>
+
+<p>Using the CSS float property allows us to position elements next to each other. For example:</p>
+
+<p><a class="jsbin-embed" href="http://jsbin.com/lijuvo/1/embed?output&amp;height=240px">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script></p>
+
+<p>Both of the above boxes have the following CSS attributes applied:</p>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">width</span><span class="nd">:100px</span><span class="o">;</span>
+<span class="nt">height</span><span class="nd">:100px</span><span class="o">;</span>
+<span class="nt">margin</span><span class="nd">:20px</span><span class="o">;</span>
+<span class="nt">padding</span><span class="nd">:20px</span><span class="o">;</span>
+<span class="nt">float</span><span class="nd">:left</span><span class="o">;</span>
+<span class="nt">background-color</span><span class="nd">:yellow</span><span class="o">;</span></code></pre></figure>
+
+<p>In this case, the two divs are floated <strong>left</strong>. Elements can be floated to the left or right, allowing content to flow around their containing box.</p>
+
+<h2 id="inline-block">Inline-Block</h2>
+
+<p>Alternatively, we can set the <code class="highlighter-rouge">display</code> property of an element to <code class="highlighter-rouge">inline-block</code> to position it within the flow of our document.</p>
+
+<p>Using our exampple divs above, if we remove <code class="highlighter-rouge">float: left</code> and instead set <code class="highlighter-rouge">display: inline-block</code>, we see our browser return a similar result:</p>
+
+<p><a class="jsbin-embed" href="http://jsbin.com/sumope/1/embed?output&amp;height=240px">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script></p>
+
+<p>It’s important to remember here that, because our elements are now set <code class="highlighter-rouge">inline</code> with all the other content of our page, whitespace between these two divs creates an actual space character within our browser. This can be avoided by either removing any witespace between inline-block elements, or by setting <code class="highlighter-rouge">font-size</code> to <code class="highlighter-rouge">0</code> on the parent element.</p>
+
+    
+    <hr>
+    
+    <h3>
+      <a href="/">🔙 Go Home</a>
+    </h3>
+    
+    <p>
+      <small>Last updated: February 7, 2018</small>
+    </p>
+  </body>
+</html>

@@ -1,0 +1,80 @@
+<html>
+  <head>
+    <title>Core Lab Interaction - Week 2</title>
+  </head>
+  <body>
+    <h1>Week 2 Notes</h1>
+    
+      <h2>Linking Stylesheets to Pages</h2>
+    
+  <p><code>HTML</code> stands for Hyper Text Markup Language. <em>Markup</em> is the key word in HTML, because HTML describes the content of the page. <code>CSS</code> stands for Cascading Style Sheets. Here, <em>Style</em> is the key word. CSS styles the page&rsquo;s contents.</p>
+
+<p>CSS files end with the extension <code>.css</code> and are linked to your <code>HTML</code> page using the <code>&lt;link&gt;</code> tag:</p>
+
+<pre><code>&lt;link href=&quot;assets/css/style.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
+</code></pre>
+
+<p>The <code>&lt;link&gt;</code> tag should always live inside the <code>head</code> of your HTML document, as seen here:</p>
+
+  <script src="https://gist.github.com/griffiths/55dc93b0c902507a4e1d.js"></script>
+
+  <h2>CSS Syntax</h2>
+  <p>CSS syntax has three main components: </p>
+
+<ul>
+<li><code>selector</code></li>
+<li><code>property</code></li>
+<li><code>value</code> </li>
+</ul>
+
+<pre><code>p {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+</code></pre>
+
+<h3>Selectors</h3>
+
+<p><code>Selectors</code> are any HTML element, for example: <code>p</code>, <code>a</code>, <code>hr</code>, <code>strong</code>, and <code>h1</code> are all selectors. They are the <code>tags</code> in an HTML document. In the example above, <code>p</code> is the selector.</p>
+
+<h3>Properties &amp; Values</h3>
+
+<p>Every selector has a set of valid properties that can be assigned various values. In the example above, <code>font-size</code> and <code>margin-bottom</code> are both properties and <code>15px</code> and <code>10px</code> are their respective values. </p>
+
+  <script src="https://gist.github.com/griffiths/1765922.js"></script>
+
+  <p>Keep in mind, if this CSS file were attached to this page, it would apply the above styling to every paragraph within the document. CSS, like HTML, can contain comments. To open a comment, type <code>/*</code>. To close, type <code>*/</code>.</p>
+
+
+  <p>You can also define your own selectors using classes and IDs. Classes and IDs are HTML attributes, like <code>src</code> or <code>href</code>. The big difference between classes and IDs is that <code>classes</code> are repeatable, whereas <code>ID</code>s can be used only once. You can attach a class or an ID to any HTML element like this:</p>
+
+  <script src="https://gist.github.com/griffiths/1766180.js"></script>
+
+  <p>To reference an ID in your CSS document, you must use a hash tag as a prefix (ie: <code>#intro</code>). To reference a class, use a period as a prefix (ie: <code>.normal</code>).Now I can use the selector <code>#intro</code> to control the appearance of the first paragraph, the selector <code>.normal</code> to control the second, and the selector <code>.indent</code> to control the third. For example:</p>
+
+  <script src="https://gist.github.com/griffiths/1766254.js"></script>
+
+
+    <img src="https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2Fbox-model.png?1517406922024" />
+        <p>
+          The box model
+        </p>
+
+
+    
+    <ul>
+      <li><a href="http://learn.shayhowe.com/html-css/opening-the-box-model/">Shay Howe, <em>Box Model &amp; Positioning</em></a></li>
+      <li><a href="https://devdocs.io/css">DevDocs CSS Reference</a></li>
+    </ul>
+    
+    <hr>
+    
+    <h3>
+      <a href="/">🔙 Go Home</a>
+    </h3>
+    
+    <p>
+      <small>Last updated: January 31, 2018</small>
+    </p>
+  </body>
+</html>
