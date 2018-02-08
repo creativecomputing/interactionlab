@@ -6,7 +6,7 @@ BFA Communication Design
 PUCD 2126; CRN 3185  
 Spring 2018  
 Wednesdays, 9:00 – 11:40 a.m.  
-63 5th Ave., Rm. 306
+2 W. 13th St., Rm. 811
 
 Brendan Griffiths  
 [griffitb@newschool.edu](mailto:griffitb@newschool.edu)  
