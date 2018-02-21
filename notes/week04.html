@@ -1,0 +1,196 @@
+<html>
+  <head>
+    <title>Core Lab Interaction - Week 4</title>
+  </head>
+  <body>
+    <h1>Week 4 Notes</h1>
+    
+    
+       <h2 id="sprites">Sprites</h2>
+
+<p>Image sprites are collections of individual images that have been condensed into a single image file. For example, the file we made in class:</p>
+
+<p><img src="https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2Fsprite.gif?1518551424454" alt="Sprite" /></p>
+
+<p>shows the three states of our button (static, hover, and active) in a single GIF image.
+If we now build our anchor tag using the following HTML code:</p>
+
+<p><code class="highlighter-rouge">&lt;a class="button" href="http://parsons.edu"&gt;Parsons&lt;/a&gt;</code></p>
+
+<p>We can apply the following CSS to produce the rollover effect:</p>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.button</span> <span class="p">{</span>
+	<span class="nl">display</span><span class="p">:</span> <span class="nb">block</span><span class="p">;</span>
+	<span class="nl">width</span><span class="p">:</span> <span class="m">250px</span><span class="p">;</span>
+	<span class="nl">height</span><span class="p">:</span> <span class="m">250px</span><span class="p">;</span>
+	<span class="nl">background-image</span><span class="p">:</span> <span class="sx">url('sprite.gif')</span><span class="p">;</span>
+	<span class="nl">background-repeat</span><span class="p">:</span> <span class="nb">no-repeat</span><span class="p">;</span>
+	<span class="nl">overflow</span><span class="p">:</span><span class="nb">hidden</span><span class="p">;</span>
+	<span class="nl">text-indent</span><span class="p">:</span><span class="m">100%</span><span class="p">;</span>
+	<span class="nl">white-space</span><span class="p">:</span> <span class="nb">nowrap</span><span class="p">;</span>
+<span class="p">}</span>
+ 
+<span class="nc">.button</span><span class="nd">:hover</span> <span class="p">{</span>
+	<span class="nl">background-position</span><span class="p">:</span> <span class="m">-250px</span> <span class="m">0</span><span class="p">;</span>
+<span class="p">}</span>
+ 
+<span class="nc">.button</span><span class="nd">:active</span> <span class="p">{</span>
+	<span class="nl">background-position</span><span class="p">:</span> <span class="m">-500px</span> <span class="m">0</span><span class="p">;</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>The resulting button should look something like this:</p>
+
+<p><a class="jsbin-embed" href="http://jsbin.com/habuwi/1/embed?output&amp;height=300px">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script></p>
+
+    <h2>
+      Absolute Positioning with a Relative Container
+    </h2>
+<p>
+If we apply <code class="highlighter-rouge">position: relative;</code> to a div containing a series of other elements, we are able to give each element an absolute position that is relative to the borders of the container. For example:</p>
+
+<p><a class="jsbin-embed" href="http://jsbin.com/yeroci/1/embed?output&amp;height=400px">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script></p>
+
+<p>The CSS for the boxes above is as follows:</p>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.container</span> <span class="p">{</span>
+	<span class="nl">width</span><span class="p">:</span> <span class="m">200px</span><span class="p">;</span>
+	<span class="nl">height</span><span class="p">:</span> <span class="m">350px</span><span class="p">;</span>
+	<span class="nl">background-color</span><span class="p">:</span> <span class="no">yellow</span><span class="p">;</span>
+	<span class="nl">position</span><span class="p">:</span> <span class="nb">relative</span><span class="p">;</span>
+<span class="p">}</span>
+ 
+<span class="nc">.shape</span> <span class="p">{</span>
+	<span class="nl">width</span><span class="p">:</span><span class="m">100px</span><span class="p">;</span>
+	<span class="nl">height</span><span class="p">:</span> <span class="m">220px</span><span class="p">;</span>
+	<span class="nl">background-color</span><span class="p">:</span> <span class="no">black</span><span class="p">;</span>
+	<span class="nl">position</span><span class="p">:</span> <span class="nb">absolute</span><span class="p">;</span>
+	<span class="nl">top</span><span class="p">:</span> <span class="m">40px</span><span class="p">;</span>
+	<span class="nl">left</span><span class="p">:</span> <span class="m">40px</span><span class="p">;</span>
+<span class="p">}</span>
+ 
+<span class="nc">.shape-two</span> <span class="p">{</span>
+	<span class="nl">position</span><span class="p">:</span> <span class="nb">absolute</span><span class="p">;</span>
+	<span class="nl">top</span><span class="p">:</span> <span class="m">20px</span><span class="p">;</span>
+	<span class="nl">left</span><span class="p">:</span> <span class="m">20px</span><span class="p">;</span>
+	<span class="nl">width</span><span class="p">:</span> <span class="m">40px</span><span class="p">;</span>
+	<span class="nl">height</span><span class="p">:</span> <span class="m">60px</span><span class="p">;</span>
+	<span class="nl">background-color</span><span class="p">:</span> <span class="no">red</span><span class="p">;</span>
+<span class="p">}</span>
+ 
+<span class="nc">.shape-three</span> <span class="p">{</span>
+	<span class="nl">position</span><span class="p">:</span> <span class="nb">absolute</span><span class="p">;</span>
+	<span class="nl">top</span><span class="p">:</span> <span class="m">10px</span><span class="p">;</span>
+	<span class="nl">left</span><span class="p">:</span> <span class="m">10px</span><span class="p">;</span>
+	<span class="nl">width</span><span class="p">:</span> <span class="m">20px</span><span class="p">;</span>
+	<span class="nl">height</span><span class="p">:</span> <span class="m">30px</span><span class="p">;</span>
+	<span class="nl">background-color</span><span class="p">:</span> <span class="no">lime</span><span class="p">;</span>
+<span class="p">}</span></code></pre></figure>
+
+<h2 id="non-rectangular-shapes-in-css">Non-rectangular Shapes in CSS</h2>
+
+<p>Using the tricks we discussed in class we are able to create non-rectangular shapes in CSS. For example, a circle:</p>
+
+<p><a class="jsbin-embed" href="http://jsbin.com/pogaxu/1/embed?output&amp;height=350px">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script></p>
+
+<p>can be made using the following code:</p>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.circle</span> <span class="p">{</span>
+	<span class="nl">width</span><span class="p">:</span> <span class="m">300px</span><span class="p">;</span>
+	<span class="nl">height</span><span class="p">:</span> <span class="m">300px</span><span class="p">;</span>
+	<span class="nl">background-color</span><span class="p">:</span> <span class="no">red</span><span class="p">;</span>
+	<span class="nl">border-radius</span><span class="p">:</span> <span class="m">150px</span><span class="p">;</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>And to make a triangle:</p>
+
+<p><a class="jsbin-embed" href="http://jsbin.com/xital/1/embed?output&amp;height=450px">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script></p>
+
+<p>we can use the following:</p>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.triangle</span> <span class="p">{</span>
+	<span class="nl">border-bottom</span><span class="p">:</span> <span class="nb">none</span><span class="p">;</span>
+	<span class="nl">border-top</span><span class="p">:</span> <span class="m">400px</span> <span class="nb">solid</span> <span class="no">blue</span><span class="p">;</span>
+	<span class="nl">border-right</span><span class="p">:</span> <span class="m">240px</span> <span class="nb">solid</span> <span class="nb">transparent</span><span class="p">;</span>
+	<span class="nl">border-left</span><span class="p">:</span> <span class="m">240px</span> <span class="nb">solid</span> <span class="nb">transparent</span><span class="p">;</span>
+	<span class="nl">width</span><span class="p">:</span><span class="m">0</span><span class="p">;</span>
+<span class="p">}</span></code></pre></figure>
+
+<h2 id="ordering-elements-using-the-z-index-property">Ordering Elements Using the z-index Property</h2>
+<p>We can use the CSS property <code class="highlighter-rouge">z-index</code> to order elements on our page. By default, layer order is determined by the order in which elements are presented in the HTML page. So if your HTML document contains:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"one"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"two"</span><span class="nt">&gt;&lt;/div&gt;</span></code></pre></figure>
+
+<p><code class="highlighter-rouge">#two</code> will appear on top of <code class="highlighter-rouge">#one</code>.</p>
+
+<p>Using the z-index property allows us to override this. In the example we built in class:</p>
+
+<p><a class="jsbin-embed" href="http://jsbin.com/cokaqe/1/embed?output&amp;height=650px">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script></p>
+
+<p>we are using the hover psuedo-class to give <code class="highlighter-rouge">.pop</code> a <code class="highlighter-rouge">z-index</code> of <code class="highlighter-rouge">1</code>, forcing it to the top of the layer stack. The example above uses the following CSS code:</p>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.z-contain</span> <span class="p">{</span>
+	<span class="nl">width</span><span class="p">:</span><span class="m">600px</span><span class="p">;</span>
+	<span class="nl">height</span><span class="p">:</span><span class="m">600px</span><span class="p">;</span>
+	<span class="nl">background-color</span><span class="p">:</span><span class="m">#eee</span><span class="p">;</span>
+	<span class="nl">position</span><span class="p">:</span><span class="nb">relative</span><span class="p">;</span>
+<span class="p">}</span>
+ 
+<span class="nc">.pop</span> <span class="p">{</span>
+	<span class="nl">position</span><span class="p">:</span> <span class="nb">absolute</span><span class="p">;</span>
+	<span class="nl">width</span><span class="p">:</span><span class="m">300px</span><span class="p">;</span>
+	<span class="nl">height</span><span class="p">:</span><span class="m">300px</span><span class="p">;</span>
+<span class="p">}</span>
+ 
+<span class="nc">.pop</span><span class="nd">:hover</span> <span class="p">{</span>
+	<span class="nl">z-index</span><span class="p">:</span><span class="m">1</span><span class="p">;</span>
+<span class="p">}</span>
+ 
+<span class="nc">.one</span> <span class="p">{</span>
+	<span class="nl">top</span><span class="p">:</span> <span class="m">40px</span><span class="p">;</span>
+	<span class="nl">left</span><span class="p">:</span> <span class="m">40px</span><span class="p">;</span>
+	<span class="nl">background-color</span><span class="p">:</span> <span class="no">lime</span><span class="p">;</span>
+ 
+<span class="p">}</span>
+ 
+<span class="nc">.two</span> <span class="p">{</span>
+	<span class="nl">top</span><span class="p">:</span> <span class="m">60px</span><span class="p">;</span>
+	<span class="nl">left</span><span class="p">:</span> <span class="m">60px</span><span class="p">;</span>
+	<span class="nl">background-color</span><span class="p">:</span> <span class="no">yellow</span><span class="p">;</span>
+	
+<span class="p">}</span>
+ 
+<span class="nc">.three</span> <span class="p">{</span>
+	<span class="nl">top</span><span class="p">:</span> <span class="m">80px</span><span class="p">;</span>
+	<span class="nl">left</span><span class="p">:</span> <span class="m">80px</span><span class="p">;</span>
+	<span class="nl">background-color</span><span class="p">:</span> <span class="no">blue</span><span class="p">;</span>
+ 
+<span class="p">}</span>
+ 
+<span class="nc">.four</span> <span class="p">{</span>
+	<span class="nl">top</span><span class="p">:</span> <span class="m">100px</span><span class="p">;</span>
+	<span class="nl">left</span><span class="p">:</span> <span class="m">100px</span><span class="p">;</span>
+	<span class="nl">background-color</span><span class="p">:</span> <span class="no">red</span><span class="p">;</span>
+<span class="p">}</span></code></pre></figure>
+
+      
+    <h3>
+      See also:
+    </h3>
+    
+    
+    <ul>
+      <li><a href="https://css-tricks.com/examples/ShapesOfCSS/">The Shapes of CSS</a></li>
+    </ul>
+    
+    <hr>
+    
+    <h3>
+      <a href="/">🔙 Go Home</a>
+    </h3>
+    
+    <p>
+      <small>Last updated: February 14, 2018</small>
+    </p>
+  </body>
+</html>
