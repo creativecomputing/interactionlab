@@ -1,0 +1,82 @@
+<html>
+  <head>
+    <title>Core Lab Interaction - Week 6</title>
+  </head>
+  <body>
+    <h1>Week 6 Notes</h1>
+    
+        <h2>Responsive Pages with Media Queries</h2>
+
+<p>Media queries allow us to apply different styles to our page under different conditions (often referred to as breakpoints), most commonly at different window widths.</p>
+    
+    <p>
+      To set a breakpoint, we use the <code>@media</code> rule:
+    </p>
+    
+    
+    <pre>@media only screen and (max-width: 820px) {
+  body {
+    background-color: yellow;
+  }
+}</pre>
+    
+    <p>
+      Which produces the following:
+    </p>
+    
+    <a class="jsbin-embed" href="http://jsbin.com/luhexiw/embed?html,css,output">JS Bin on jsbin.com</a><script src="http://static.jsbin.com/js/embed.min.js?4.1.2"></script>
+    
+    
+    <p>
+      Media queries can be very useful when used in conjunction with multi-column layouts. In the example below, we're collapsing a 3 column layout down to one, using the following media query:
+    </p>
+    
+    <pre>.column {
+  width: 33.33%;
+}
+
+@media only screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}</pre>    
+
+    <a class="jsbin-embed" href="http://jsbin.com/qejigas/embed?html,css,output">JS Bin on jsbin.com</a><script src="https://static.jsbin.com/js/embed.min.js?4.1.2"></script>
+    
+    <p>
+      We can also combine <code>min-width</code> and <code>max-width</code> to specify styles which should only be applied between two specific window widths:
+    </p>
+    
+    <pre>@media only screen and (min-width: 300px) and (max-width: 399px) {
+  .the {
+    display: block; 
+  }
+}</pre> 
+    
+    
+    <a class="jsbin-embed" href="http://jsbin.com/hedijur/embed?html,css,output">JS Bin on jsbin.com</a><script src="http://static.jsbin.com/js/embed.min.js?4.1.2"></script>
+    
+
+    
+
+      
+    <h3>
+      See also:
+    </h3>
+    
+    
+    <ul>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries">Using media queries</a></li>
+    </ul>
+    
+    <hr>
+    
+    <h3>
+      <a href="/">🔙 Go Home</a>
+    </h3>
+    
+    <p>
+      <small>Last updated: February 28, 2018</small>
+    </p>
+  </body>
+</html>
