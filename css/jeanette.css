@@ -1,0 +1,194 @@
+/* Title: Virtual */
+
+h1{
+  font-family: Helvetica;
+  font-size: 60px;
+  font-weight: bold;
+  font-style: italic;
+  color: #fdfae8;
+  text-align: center;
+  text-shadow: -4px 0 #ef4f11, 0 4px #ef4f11, 4px 0 #ef4f11, 0 -4px #ef4f11;
+  line-height: 3em;
+  margin: 0;
+}
+
+mark{
+  background-color: white;
+}
+
+@media only screen and (max-width: 1200px) {
+  .wrapper {
+    width: 100%;
+  }
+}
+/*  A style sheet within the style sheet- any value below 1200px will be changed to how we set it */
+
+@media only screen and (max-width: 900px) {
+  .week {
+    width: 50%;
+  }
+}
+
+/* @media only screen and (max-width: 900px) {
+  .week, .students {
+    width: 50%;
+  }
+} */
+
+.semester{
+  font-family: Monaco, monospace;
+  font-size: 18px;
+  text-align: center;
+  line-height: 0.5em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.location{
+  font-family: Helvetica;
+  font-size: 15px;
+  text-align: center;
+}
+
+.welcome{
+  font-family: Helvetica;
+  font-size:15px;
+  margin-left: 190px;
+  margin-right: 190px;
+  margin-top: 30px;
+}
+
+.welcome a{
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.welcome a:hover{
+  color:#ef4f11;
+}
+
+.syllabus{
+  text-align: center;
+  margin-top: 35px;
+}
+
+.syllabus button {
+    background-color: white;
+    border-color: #ef4f11;
+    border-style: solid;
+    border-width: 2.25px;
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    font-family: Monaco;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.syllabus button:hover{
+    transform: scale(1.2);
+}
+  
+
+.quote{
+  font-family: Helvetica;
+  text-align: center;
+  margin-top: 35px;
+}
+
+.week{
+  display: inline-block;
+  width: 350px;
+  padding:10px;
+  background-color: #fdfae8;
+  vertical-align: top;
+  margin: 20px;
+  font-family: Helvetica;
+  font-size:15px;
+  line-height: 2em;
+/*   margin-left: 190px;
+  margin-right: 190px;
+  margin-top: 30px;
+  line-height:2em; */
+}
+
+.week h2{
+  margin: 0;
+  text-align: center;
+  border-bottom: 2px solid #ef4f11;
+}
+
+.students{
+  font-family: Helvetica;
+  font-size:15px;
+  line-height:2em;
+  height: 600px;
+  width: 500px;
+  background-color: #fdfae8;
+  transition: all 1s;
+  position: fixed;
+  top:0;
+  right: -500px;
+}
+
+.students h2 {
+  background-color: #ef4f11;
+  position: absolute;
+  top:60px;
+  left: -67px;
+  transform: rotate(-90deg);
+  padding: 4px;
+}
+
+.students:hover {
+  right: 0;
+}
+
+.resources{
+  font-family: Helvetica;
+  font-size:15px;
+  line-height: 1.5em;
+  height: 980px;
+  width: 500px;
+  background-color: #fdfae8;
+  transition: all 1s;
+  position: fixed;
+  top:0;
+/*   overflow:auto; */
+  right: -500px;
+}
+.resources h2 {
+  background-color: #d0d0d0;
+  position: absolute;
+  top:190px;
+  left: -80px;
+  transform: rotate(-90deg);
+  padding: 6px;
+}
+.resources:hover {
+  right: 0;
+}
+
+.footer{
+  font-family: Helvetica;
+  font-size:15px;
+  margin-left: 190px;
+  margin-right: 190px;
+  margin-top: 30px;
+  line-height:1.5em;
+  text-align: center;
+}
+
+a:hover{
+  color: pink;
+  text-decoration: underline;
+}
+ a:visited{
+   color: blue;
+   text-decoration:none;
+}
+
+ul{
+list-style:none;
+}
