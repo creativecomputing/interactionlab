@@ -1,0 +1,147 @@
+body{
+  background-color: white;
+  
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif; }
+
+  h1 {
+	  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	  font-size: 20px;
+  	font-style: normal;
+	  font-weight: 500;
+	  line-height: 26.4px;
+    text-align:left;
+    color: hotpink;
+    padding-top:60px;
+}
+
+.wrapper {
+  width:1000px;
+  margin-left:100px
+ ;
+}
+.semester{
+  color:blue;
+text-align:left;}
+
+.location{
+  color:blue;
+}
+
+.welcome{
+ margin-left:50px;
+  text-align:left
+ 
+}
+.quote { 
+  color:white;
+  
+  
+}
+
+.syllabus{
+  width:600px;
+  text-align:center;
+  margin-left:170px;
+}
+
+  ul {
+  list-style-type: none;
+  display: inline-block;}
+
+.week
+
+    h2{ 
+      color:blue;
+      margin:30px;
+      font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+      text-align:left;
+font-size:50px}
+
+    a:link {
+      color: red;
+      padding:5px;
+      margin:5px;
+
+    border: 1px solid red;
+    border-radius: 8px;}
+
+
+    a:visited {
+    color:red;}
+
+    a:hover {
+    color: hotpink;
+    background-color:blue;
+    border:blue;}
+
+    ul li {
+    
+      list-style-type: none;
+  display: inline-block;
+color:blue; 
+}
+   
+    p { color:blue;
+      }
+
+
+textarea {
+  border: none;
+  margin: 0px; 
+  width: 798px; 
+  height: 15px;
+}
+ 
+
+.students 
+  
+    { color:pink;
+    margin:30px;
+      margin-top:180px;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif; 
+font-size:10px;
+width:50px;
+  float:right;}
+  
+  h2{ 
+      color:blue;
+      margin:30px;
+      font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+      text-align:left;}
+
+ h3{ 
+      color:blue;
+      margin:30px;
+      font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+      text-align:left;}
+
+
+.resources{
+width:300px;
+  margin:10px;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif; 
+  float:left;}
+  
+  a:link {
+      color: red;
+      padding:5px;
+    vertical-align:top;
+    border: 1px solid red;
+    border-radius: 8px;
+    display:inline-block;
+}
+
+
+.footer {
+
+   color:blue;
+    margin-left:500px;
+    margin-top:200px;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;}
+  
+      a:link {
+      color: red;
+
+    vertical-align:top;
+    border: 1px solid red;
+    border-radius: 8px;}

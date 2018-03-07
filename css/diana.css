@@ -1,0 +1,404 @@
+html, body {
+  width: 100%;
+  height:100%;
+  margin: 0;
+  background-color: #f9f9f9; 
+}
+
+
+
+
+body {
+font-family: futura-medium, helvetica, arial, sans-serif;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+
+}
+
+
+a { text-decoration: none;
+    color: black;
+  
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  display:inline-block;
+  margin-bottom: 12px;
+   vertical-align:top;
+}
+
+ul li a {
+  margin: 13px;
+  display: inline-block;
+  border: 2px solid white;
+  padding: 15px;
+  position: relative; 
+  border-radius: 10px;
+  width: auto; 
+}
+
+h1 {
+  text-align: center;
+  margin: 0 auto;
+  margin-top:55px;
+  color: black;
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 50px; 
+  text-shadow: 3px 3px #ffe6bf;
+}
+
+h2{
+  font-size:20px;
+  max-width: fit-content;
+}
+
+h3 {
+  font-weight: normal;
+  padding-left: 2%;
+}
+
+h4 {
+  font-weight: normal;
+  margin: 0px; 
+}
+
+h5 {
+  font-weight: normal;
+  margin:0px;
+}
+sup {
+  text-decoration: none;
+}
+
+.welcome {
+  position: absolute;
+  top:0px;
+  left:0%;
+  font-size: 9px;
+  vertical-align:top;
+  text-align: center;
+  width: 20%;
+  height: 8px;
+  line-height:8px;
+  padding: 8px;
+  color: white;
+  background-color: black;
+  overflow: hidden;
+}
+
+.welcome:hover{
+  height: 150px;
+}
+
+.welcome p{
+  margin-top: -1px;
+  line-height: 15px;
+}
+
+.welcome a{
+  color: white;
+}
+
+.welcome code{
+  font-size: 8px;
+  width: 80%;
+}
+
+.semester {
+  position: absolute;
+  top:0px;
+  left:20%;
+  font-size: 9px;
+  vertical-align:top;
+  text-align: center;
+  width: 20%;
+  height: 8px;
+  line-height:8px;
+  padding: 8px;
+  color: white;
+  background-color: black;
+}
+
+.location {
+  text-decoration: none;
+  position: absolute;
+  top:0px;
+  left:40%;
+  font-size: 9px;
+  text-align: center;
+  color:white;
+  padding: 2px;
+  width:25%;
+  height: 20px;
+  line-height: 10px;
+  background-color: black;
+  
+  
+}
+
+textarea{
+  width: 25%;
+  position: absolute;
+  top:0px;
+  left:60%;
+  font-size: 9px;
+  vertical-align:top;
+  text-align: center;
+  color:white;
+  border: 1px solid black;
+  padding: 8px;
+  height: 24px;
+  background-color: black;
+}
+
+textarea:focus{
+  outline: none !important;
+  border:1px solid white;
+  box-shadow: 0 0 10px #719ECE;
+}
+
+blockquote{
+  padding: 0;
+  margin: 0;
+}
+
+.syllabus button {
+  position: absolute;
+  top: 0px;
+  left:80%;
+  width:20%;
+  padding-top: 4px;
+  height: 24px;
+  background-image: url('https://cdn.glitch.com/0ead8709-af88-4fed-9072-ca4567e0b23a%2Fsource.gif?1519776202422');
+  background-size: cover;
+  background-position: center center;
+  border: none;
+  font-size: 14px;
+  color: white;
+  overflow: hidden;
+  
+}
+
+.syllabus button:hover {
+  background-image: url('https://cdn.glitch.com/0ead8709-af88-4fed-9072-ca4567e0b23a%2Fsource.gif?1519776202422');
+  background-size: cover;
+  background-position: center center;
+  color: white;
+}
+
+.syllabus button:active {
+  box-shadow: 10px 8px black;
+  outline: 3px solid white;
+  color: black;
+}
+
+
+mark{
+  background-color: white;
+}
+
+.quote{
+  display: inline-block;
+  font-size: 10px;
+  
+}
+
+code {
+  font-family:futura-medium, helvetica, arial, sans-serif;
+  display: inline-block;
+  font-size: 10px;
+  width: 300px;
+}
+
+p.syllabus {
+  height:0px;
+  margin:0px;
+  padding:0px;
+  width:100%;
+}
+
+
+
+.week {
+  background-color:white;
+  width: 70%;
+  padding-top: 50px;
+  margin-left: 15%;
+  margin-top: 3%;
+  margin-bottom:60px;
+  border-radius: 30px;
+  
+}
+
+.week ul li a{
+  color: #ffdbce;
+  text-transform: uppercase;
+  background-color: white;
+  border: 3px solid #ffdbce;
+  margin: 13px;
+  display: inline-block;
+  padding: 20px;
+  position: relative; 
+  width: auto;
+  
+}
+
+.week ul li a:hover{
+  color: white;
+  box-shadow: 8px 8px #ffdbce;
+  border: 3px solid white;
+  background-image: url('https://cdn.glitch.com/0ead8709-af88-4fed-9072-ca4567e0b23a%2Fsource.gif?1519776202422');
+  background-size: cover;
+  background-position: center center;
+}
+
+.week h2{
+  position: absolute;
+  text-align: left;
+  margin-top:-55px;
+  padding: 15px; 
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+  margin-left: -100px;
+  background-color: #ffdbce;
+  color: white;
+  border-radius:15px;
+}
+
+
+.students{
+  background-color:white;
+  width: 70%;
+  margin-left: 15%;
+  border-radius: 30px;
+  border: 5px solid white;
+  margin-top:5%;
+  margin-bottom:60px;
+  padding: 0px 0px 5px 0px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.students ul li a{
+  color: #ffa3a4;
+  background-color:white;
+  border: 3px solid #ffa3a4;
+}
+
+.students ul li a:hover{
+  color: white;
+  border: 3px solid white;
+  box-shadow: 8px 8px #ffa3a4;
+  background-image: url('https://cdn.glitch.com/0ead8709-af88-4fed-9072-ca4567e0b23a%2Fsource.gif?1519776202422');
+  background-size: cover;
+  background-position: center center;
+  
+}
+
+.students h2 {
+  position: absolute;
+  text-align: left;
+  margin-top:-10px;
+  padding: 15px; 
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+  margin-left: -100px;
+  background-color: #ffa3a4;
+  color: white;
+  border-radius:15px;
+}
+
+.resources{
+  background-color:white;
+  width: 70%;
+  margin-left: 15%;
+  border-radius: 30px;
+  border: 5px solid white;
+  margin-top:5%;
+  margin-bottom:5%;
+}
+
+.resources h3 {
+  padding-top:40px;
+}
+
+.resources ul li a {
+  color: #ffe6bf;
+  background-color:white;
+  border: 3px solid #ffe6bf;
+  text-transform: uppercase;
+  
+}
+
+.resources ul li a:hover{
+  color: white;
+  border: 3px solid white;
+  box-shadow: 8px 8px #ffe6bf;
+  background-image: url('https://cdn.glitch.com/0ead8709-af88-4fed-9072-ca4567e0b23a%2Fsource.gif?1519776202422');
+  background-size: cover;
+  background-position: center center;
+}
+
+.resources h2{
+  position: absolute;
+  text-align: left;
+  margin-top:-10px;
+  padding: 15px; 
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+  margin-left: -100px;
+  background-color: #ffe6bf;
+  color: white;
+  border-radius:15px;
+  
+}
+ 
+.footer{
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 800px) {
+  h1{
+    font-size:40px;
+    margin-bottom: 20px;
+  }
+
+.week, .students, .resources {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  }
+  
+.week h2 {
+  margin-top:-70px;
+  margin-left:0px;
+  width: 100%;
+  }
+  
+.students h2 {
+  margin-top:-40px;
+  margin-left:0px;
+  width: 100%;
+  }
+  
+.resources h2{
+  margin-top:-30px;
+  margin-left:0px;
+  width: 100%;
+  }
+}
+
+
+  
+
+

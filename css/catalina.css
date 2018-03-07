@@ -1,0 +1,277 @@
+body{
+  font-family: Georgia;
+  font-size: 14px;
+  line-height: 33px;
+   background-image: url("https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2Fc8d04335-43b5-49f3-94d7-e09f33691400%252Fbckk-01%20copy.png");
+}
+
+
+.wrapper {
+   width: 70%;
+  margin-left: 30%;
+  margin-top: 100px;
+}
+.location {
+  color: white;
+  width: 200px;
+  padding: 10px;
+  background-color: 	#gold;
+  border-radius: 20px;
+  vertical-align: top;
+  margin: 20px;
+   box-shadow: 10px 10px 5px 	grey;
+}
+
+.location a {
+ margin:0;
+  font-size: 32px;
+  text-align: center;
+  color: white;
+  
+  
+}
+
+
+
+.location:hover{
+  box-shadow: 10px 10px 5px black;
+}
+
+.welcome {
+
+  color: white;
+  padding: 10px;
+  background-color: 	old;
+  border-radius: 20px;
+  vertical-align: top;
+  margin: 20px;
+  text-align: center;
+   box-shadow: 10px 10px 5px 	grey;
+}
+
+.welcome a {
+ margin:0;
+  font-size: 32px;
+  text-align: center;
+  color: white;
+  
+  
+}
+.welcome:hover{
+  box-shadow: 10px 10px 5px black;
+}
+
+.quote {
+   font-weight: normal;
+  font-family: georgia,
+monospace;
+  margin: 0;
+  color: white;
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  background-color: gold;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px 	grey;
+}
+
+.quote a {
+ margin:0;
+  font-size: 32px;
+  text-align: center;
+  color: white;
+  
+  
+}
+
+.quote:hover{
+  box-shadow: 10px 10px 5px black;
+}
+
+.syllabus {
+  margin: 0;
+  background-color: ;
+  position: absolute;
+  top: 125px;
+  right: 370px;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px 	grey;
+}
+
+.syllabus a {
+ margin:0;
+  font-size: 32px;
+  text-align: center;
+  color: white;
+  
+  
+}
+
+
+.syllabus:hover{
+  box-shadow: 10px 10px 5px black;
+}
+
+h1 {
+/*   border: 4px solid red;
+  border-radius: 100px; */
+/*   width: 600px;
+  height:50px; */
+  font-size: 72px;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 50px;
+  position: absolute;
+  top: 20px;
+  left: 200px;
+}
+
+.semester {
+  font-weight: normal;
+  font-family: georgia,
+monospace;
+  margin: 0;
+  font-size: 18px;
+  color: white;
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  background-color: gold;
+  padding: 10px;
+  border-radius: 20px;
+   box-shadow: 10px 10px 5px 	grey;
+  
+}
+
+.week {
+ display: inline-block;
+  color: white;
+  width: 250px;
+  padding: 10px;
+  background-color:	gold;
+  border-radius: 20px;
+  vertical-align: top;
+  margin: 25px;
+  box-shadow: 10px 10px 5px 	grey;
+}
+
+.week:hover{
+   box-shadow: 10px 10px 5px black;
+}
+
+.week h2 {
+ margin:0;
+  font-size: 32px;
+  text-align: center;
+  color: white;
+  
+  
+}
+
+.week a {
+  color: white;
+}
+
+.students {
+  position: absolute;
+  top:90px;
+   color: white;
+  width: 20%;
+  padding: 10px;
+  background-color: ;
+  border-radius: 20px;
+  vertical-align: top;
+  margin: 20px;
+  left:40px;
+  box-shadow: 10px 10px 5px 	grey;
+  border:5px;
+/*   position: fixed;
+  top: 100px;
+  left:0; */
+/*   padding:20px;
+  background-color: olive;
+  line-height: 20px; */
+}
+
+.students a {
+  color: white;
+}
+
+.students ul {
+  list-style: none;
+}
+
+.students:hover{
+  box-shadow: 10px 10px 5px black;
+}
+
+.resources {
+  position: absolute;
+  top:700px;
+   color: white;
+  width: 20%;
+  padding: 10px;
+  background-color: opacity .8;
+  border-radius: 20px;
+  vertical-align: top;
+  margin: 20px;
+  left:40px;
+  height: 650px;
+  overflow:scroll;
+  box-shadow: 10px 10px 5px 	grey;
+}
+
+.resources h3 {
+  display: inline-block;
+   padding: 10px;
+}
+
+.resources ul {
+   padding: 10px;
+  border-radius: 20px;
+  list-style: none;
+}
+
+.resources a {
+  color: white;
+}
+
+.resources:hover{
+  box-shadow: 10px 10px 5px black;
+}
+
+
+
+.footer {
+  color: white;
+  width: 600px;
+  padding: 10px;
+  background-color: 	#F2864A;
+  border-radius: 20px;
+  vertical-align: top;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 10px 10px 5px 	grey;
+}
+
+.footer p { 
+ display: inline-block;
+  padding: 10px;
+  vertical-align: middle;
+}
+
+.footer a{
+  color: white;
+}
+
+.footer:hover{
+  box-shadow: 10px 10px 5px black;
+}
+
+
+
+.students h2 {
+  margin: 0;
+}

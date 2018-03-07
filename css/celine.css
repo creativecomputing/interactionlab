@@ -1,0 +1,250 @@
+body {
+  font-family: futura, sans-serif;
+  background: white; 
+  border-top: 30px solid beige;
+  border-bottom: 30px solid beige;
+  border-left: 50px solid beige;
+  border-right: 50px solid beige;
+  padding: 0px;
+  margin: 0px;
+  line-height: 20px;
+}
+
+h1{
+  font-family: futura;
+  color: white;
+  border: 8px solid beige;
+  line-height:90px;
+  font-size: 50px;
+  text-align: center;
+  padding: 20px;
+  width: 290px;
+  height: 290px;
+  background-color: #c1e6ff;
+  animation-name: stretchone;
+  animation-duration: 5s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  
+}
+
+@keyframes stretchone {
+  0% {
+    transform: scale(.5);
+    background-color: #c1e6ff;
+    border-radius: 100%;
+  }
+  50% {
+    background-color: #fc5a5a;
+  }
+  100% {
+    transform: scale(1);
+    background-color: #c1e6ff;
+  }
+}
+
+
+.wrapper {
+ width: 800px;
+  margin: 20px auto;
+  
+}
+
+.semester {
+  font-weight: normal;
+  text-transform: uppercase;
+  
+}
+
+.semester:hover {
+  font-weight: normal;
+  text-transform: uppercase;
+  color: pink;
+}
+
+.location:hover{
+  color: red; 
+}
+
+.welcome{
+  width: 400px;
+  margin-left:0px;
+
+}
+
+.welcome:hover {
+width: 400px;
+margin-left:0px;
+color: lightblue;
+}
+
+.blockquote{
+  font-family: futura  !important; 
+}
+
+.syllabus{
+ 
+  padding: 10px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: lightblue;
+  background-color: pink;
+  width: 200px;
+}
+
+.syllabus:hover {
+  padding: 10px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: pink;
+  background-color: lightblue;
+  width: 200px;
+}
+
+
+code {
+  font-family: futura;
+  font-size: 14px;
+}
+
+.week{
+  border: 7px solid pink;
+  padding: 10px;
+  margin: 20px 20px 20px 0px;
+  background-color: #d3edff;
+  display: inline-block;
+  vertical-align: top;
+  width: 260px;
+  height: 300px;
+  box-shadow: 10px 10px 0px 0px #c1e6ff;
+}
+
+.week:hover {
+  border: 7px solid lightblue;
+  padding: 10px;
+  margin: 20px 20px 20px 0px;
+  background-color: pink;
+  display: inline-block;
+  vertical-align: top;
+  width: 260px;
+  height: 300px;
+  box-shadow: 15px 15px 20px 0px #c1e6ff;
+}
+
+.students{
+  font-size: 15; 
+  width: 200px;
+  height: 40px;
+  border: 7px solid pink; 
+  padding: 20px;
+  background-color: white;
+  top: 30px;
+  right: 50px;
+  position: fixed;
+  overflow: auto;
+  transition: all 1.5s;
+}
+
+.students:hover{
+  font-size: 15; 
+  width: 250px;
+  height: 150px;
+  border: 7px solid pink; 
+  padding: 20px;
+  background-color: pink;
+  top: 30px;
+  right: 50px;
+  position: fixed;
+  }
+
+.resources{
+  border: 7px solid lightblue;
+  background-color: white;
+  padding: 20px;
+  width: 200px;
+  height: 40px;
+  overflow: auto;
+  transition: all 1.5s;
+  position: fixed;
+  right: 50px;
+  top: 250px; 
+}
+
+.resources:hover {
+  border: 7px solid lightblue;
+  background-color: lightblue;
+  padding: 20px;
+  margin-top: 50px;
+  width: 250px;
+  height: 300px;
+}
+
+.footer{
+  border: 7px solid beige;
+  padding: 10px;
+  background-color: pink;
+  color: black;
+  display: inline-block;
+  vertical-align: top;
+  width: 240px;
+  height: 80px;
+  overflow: auto;
+  transition: all 1.5s;
+
+}
+
+.footer:hover {
+  border: 7px solid beige;
+  padding: 20px;
+  background-color: lightblue;
+  display: inline-block;
+  vertical-align: top;
+  width: 280px;
+  height: 260px;
+}
+
+hr {
+  border-color: white ;
+  size: 0px ;
+}
+
+
+
+ul {
+list-style-type: circle;
+}
+
+
+a:link {
+    color: blue;
+      }
+      a:visited {
+    color: blue;
+      }  
+      a:hover {
+    color: white;
+      } 
+      a:link {
+    text-decoration: none;
+      }
+
+      a:visited {
+    text-decoration: none;
+      }
+
+h2 {
+  color: red; 
+}
+
+sup{
+  color: white;  
+}
+
+
+mark {
+  background-color: pink;  
+}

@@ -1,0 +1,137 @@
+h1 {
+  color: red;
+  font-family: din alternate;
+   background-color: clear;
+  margin-left: 1em;
+  margin-top: 1em;
+  font-size: 100px;
+  text-align: left;
+  padding: 30px;
+}
+body{
+  background-color: beige;
+text-align: center;
+  font-family: din alternate;
+  font-size: 15;
+  color: red;
+}
+
+.semester{
+  background-color: red;
+  width: 200px;
+  height:200px;
+  border-radius: 100%;
+  font-size: 30px;
+  line-height: 200px;
+  margin-left: 0.5em;
+  text-align: center;
+  color: white;
+  font-family:din alternate;
+  font-weight: bold;
+}
+
+.welcome{
+  background-color: navy;
+  font-family: din alternate;
+  color: yellow;
+  font-size: 15;
+  border-radius: 5%;
+  width: 400px;
+  height:250px;
+  padding: 10px;
+  
+
+}
+
+.code{
+  font-family: din alternate;
+
+}
+
+.week{
+  background-color: yellow;
+  color: navy;
+  width: 300px;
+  border-radius: 8%;
+  padding: 10px;
+  margin-left: 600px;
+
+
+}
+
+.students{
+  background-color: white;
+  width: 150px;
+  border-radius: 8%;
+  padding: 10px;
+  margin-top: 50px;
+}
+  
+.resources{
+  background-color: pink;
+  border-radius: 5%;
+  padding: 30px;
+  width: 380px;
+  color: brown;
+  margin-left: 300px;
+  
+}
+
+ul {
+    list-style: none;
+  margin:0;
+  padding:0;
+  
+}
+  
+/*   .column{
+  width: 200px;
+  background-color: yellow;
+  display: inline-block;
+  vertical-align: middle;
+}
+   */
+
+.wrapper{
+
+  margin: 400px;
+  padding: 100px;
+  margin-left: 300px;
+  margin-top: 50px;
+}
+
+
+.footer{
+  
+  color: grey;
+  margin-left: 15px;
+  margin-top: 1em;
+  
+
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .week, .students{
+    width: 50%;
+  }
+  
+}
+
+@media only screen and (max-width: 1200px) {
+  .welcome{
+    width: 100%;
+  }
+  
+}
+
+@media only screen and (max-width: 1200px) {
+  .resources{
+    width: 100%;
+  }
+  
+}
+
+body {
+  background: linear-gradient(-45deg, beige, white);
+}

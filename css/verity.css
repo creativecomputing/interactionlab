@@ -1,0 +1,182 @@
+body{background:url(https://cdn.glitch.com/85d84ff5-beb0-48ff-95ce-787cc1eacf4f%2FGroup.png?1520399853096)repeat-x;}
+
+.wrapper h1{
+font-family:Ubuntu, sans-serif;;
+width:1000px;
+font-size:80px;
+position:absolute;
+left:50%;
+top:38%;
+margin-left:50px;
+transform:translate(-50%,0);
+animation-name: example;
+animation-duration: 8s;}
+
+.semester, .location{position:absolute;
+left:50%;
+top:60vh;
+transform:translate(-50%,0);
+font-family:'raleway';
+  font-size:12pt;
+  animation-name: example;
+animation-duration: 8s;
+}
+
+.location{
+top:61.5vh;
+text-align:center;}
+
+.seperate{font-size:120pt;
+line-height:150px;}
+
+
+.welcome{margin-top:160vh;
+  width: 26vw;
+  font-size:12pt;
+  line-height:28px;
+  margin-left:37vw;
+  text-align:center;}
+code, .welcome{font-family:'raleway'}
+mark{background:none;}
+
+.syllabus{margin-left:38%;
+}
+
+.syllabus:hover{
+cursor: pointer;}
+.students:hover{
+cursor: pointer;}
+.week:hover{
+cursor: pointer;}
+.resources:hover{
+cursor: pointer;}
+
+a{color:#000;}
+a:hover{color:#fff;
+background:#000;}
+
+button{margin-bottom:400px;}
+textarea{margin-left:50%;
+  transform:translate(-50%, 0);
+  width:220px;
+  padding-top:20px;
+  padding-bottom:10px;
+  text-align:center;
+font-family:'raleway-bold';
+background:#D4F2FF;}
+
+h2
+{
+display:inline-block;
+font-family:'Ubuntu';
+font-size:20pt;
+padding:5pt;
+text-align:center;
+}
+
+
+.students{
+
+display:inline-block;
+font-family:'Ubuntu';
+font-size:20pt;
+margin:50px auto auto 60px;
+height:90px;
+  width:370px;
+overflow:scroll;
+padding:5px;
+border:dashed 1px #000;
+padding-top:10px;
+padding-bottom:10px;
+border-radius: 4%;}
+
+
+
+.resources{
+display:inline-block;
+font-family:'Ubuntu';
+font-size:20pt;
+margin:50px auto auto 60px;
+height:90px;
+  width:370px;
+  overflow:scroll;
+  padding:5px;
+border:dashed 1px #000;
+padding-top:10px;
+padding-bottom:10px;
+  border-radius: 4%;
+}
+.resources:hover{
+height:200px;}
+.students:hover{
+height:200px;}
+.week:hover{
+height:200px;}
+
+.students li{padding:5px;
+margin-bottom:5px;
+font-size:12pt;
+font-family:'raleway';
+}
+
+.students ul{padding:0;
+margin:0;
+margin-left:40px;}
+.students h2{font-family:'raleway';}
+.resources h2{font-family:'raleway';}
+.resources h3{font-family:'raleway';
+font-size:20px;
+padding:8px;
+margin:0;}
+
+.resources li{padding:5px;
+margin-bottom:3px;
+  font-family:'raleway';
+  font-size:12pt; 
+}
+.resources ul{margin:0;}
+
+
+.week{
+width:370px;
+height:90px;
+padding:5px;
+border:dashed 1px #000;
+padding-top:10px;
+padding-bottom:10px;
+font-family:'raleway';
+border-radius: 4%;
+font-size:12pt;
+overflow:scroll;
+display:inline-block;
+margin:50px auto auto 60px;}
+
+.week h2{font-family:'raleway';}
+
+
+sup{font-size:12pt;}
+
+hr{display:none;}
+.footer{font-family:'raleway';
+margin-top:400px;}
+
+.footer p{display: inline-block;
+margin-left:10.5%;
+margin-top:20px;
+vertical-align:top;
+height:80px;
+width:250px;}
+.footer a{height:50px;}
+
+
+
+
+
+@keyframes example {
+    from {color: white;}
+    to {color: black;}
+}
+@keyframes background {
+    0%   {background-color: #8DD9F2;}
+    70%  {background-color: #E0E7FF;}
+    100%  {background-color: white;}}

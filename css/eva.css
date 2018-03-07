@@ -1,0 +1,433 @@
+body {
+  margin: 0px;
+  background: #ffcee0;
+}
+
+h1 {
+  position: fixed;
+  left:20px;
+  margin: 0px;
+  text-shadow: 2px 2px blue;
+  font-size: 24px;
+}
+
+.semester {
+  position: fixed;
+  left: 20px;
+  top: 70px;
+}
+
+.location {
+  position: fixed;
+  top: 100px;
+  left: 20px;
+}
+
+.wrapper {
+  width: 700px;
+  margin: 0 auto;
+  font-family: Trebuchet MS, sans-serif;
+  background: #ffdbe8;
+  color: white;
+  padding: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  text-shadow: -1px 0 blue, 0 1px blue, 1px 0 blue, 0 -1px blue;
+}
+
+a:hover {
+  color: yellow;
+  text-shadow: 0px 0px;
+}
+
+mark {
+  background-color: #ffdbe8; 
+  color: white;
+  font-weight: bold;
+}
+
+.week {
+  width:150px;
+  height:150px;
+  border-radius: 75px;
+  display: inline-block;
+  background-color: yellow;
+  box-shadow: 10px 10px blue;
+  margin: 20px;
+  color: black;
+  vertical-align: middle;
+  transition: all 500ms;
+}
+
+.week:hover {
+  width: 300px;
+  height: 300px;
+  border-radius: 0px;
+  margin: 0px;
+  overflow: auto;
+}
+
+.week:hover h2 {
+  line-height:24px;
+  padding: 10px;
+}
+
+.week:hover ul {
+  width: 230px;
+  font-size: 15px;
+  margin: 0 auto;
+  list-style-type: none;
+  padding: 0px; 
+}
+
+.week:hover a {
+  text-shadow: -1px 0 blue, 0 1px blue, 1px 0 blue, 0 -1px blue;
+  color: white;
+}
+
+.week:hover a:hover {
+  text-shadow: 0px 0px;
+  color:blue;
+}
+
+
+
+.week h2{
+  padding: 30px 0;
+  text-align:center;
+}
+
+.week sup {
+  font-size: 15px; 
+}
+
+.week ul{
+  width:100px;
+  height:100px;
+  font-size: 0px;
+}
+
+code {
+  font-family: Lucida Console, Monaco, monospace;
+  font-weight: bold;
+}
+
+big code {
+  font-size: 16px;
+  width: 600px;
+  
+}
+
+textarea {
+  background-color: yellow;
+  box-shadow: 10px 10px blue;
+  font-weight: bold;
+  font-family: Lucida Console, Monaco, monospace;
+  width: 300px;
+  height: 150px;
+  position: fixed;
+  top: 40px;
+  right: 40px;
+}
+
+.syllabus {
+  position: fixed;
+  top: 200px;
+  right: 40px;
+  width: 300px;
+  box-shadow: 10px 10px blue;
+  
+}
+
+button {
+  background-color: yellow;
+  font-weight: bold;
+  font-family: Lucida Console, Monaco, monospace;   
+  height: 60px;
+}
+
+button:hover {
+  background-color: #ffcee0;
+}
+
+.students h2 {
+  font-size: 30;
+  text-align:center; 
+  font-weight: bold;
+  text-shadow: 2px 2px blue;
+}
+
+.students li {
+  display: inline-block;
+  background-color: yellow;
+  margin: 5px;
+  list-style-type: none;
+  padding: 15px; 
+  font-size: 13px;
+}
+
+.students ul {
+  padding:0;
+  margin:0;
+}
+
+.students {
+  margin: 0 auto;
+  text-align:center;
+  padding: 0;
+}
+
+.students a:hover {
+  color:blue;  
+}
+
+.resources h2 {
+  color: blue;
+  font-size: 30;
+  margin-bottom: 0;
+}
+
+.resources h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.resources ul {
+  margin: 0 auto;
+  list-style-type: none;
+  padding: 0px; 
+  font-size: 13px;
+}
+.resources {
+  text-align:center;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-width: 2px;
+  color: black;
+}
+
+.footer {
+  text-align: center;  
+}
+
+.footer button{
+  box-shadow: 10px 10px blue;
+}
+
+@media only screen and (max-width: 1200px) {
+  body {
+    margin: 0px;
+    background: #ffcee0;
+  }
+  
+  h1 {
+    position: static;
+    margin: 0 auto;
+    text-shadow: 2px 2px blue;
+    font-size: 24px;
+  }
+  
+  .semester {
+    position: static;
+  }
+  
+  .location {
+    position: static;
+  }
+  
+  .wrapper {
+    width: 100%;
+    margin: 0 auto;
+    font-family: Trebuchet MS, sans-serif;
+    background: #ffdbe8;
+    color: white;
+    padding: 30px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    text-shadow: -1px 0 blue, 0 1px blue, 1px 0 blue, 0 -1px blue;
+  } 
+  
+  mark {
+    background-color: #ffdbe8; 
+    color: white;
+    font-weight: bold;
+  }
+  
+  .week {
+    width:150px;
+    height:150px;
+    border-radius: 75px;
+    display: inline-block;
+    background-color: yellow;
+    box-shadow: 10px 10px blue;
+    margin: 20px;
+    color: black;
+    vertical-align: middle;
+    transition: all 500ms;
+  }
+  
+  .week:active {
+    width: 300px;
+    height: 300px;
+    border-radius: 0px;
+    margin: 0px;
+    overflow: auto;
+  }
+  
+  .week:active h2 {
+    line-height:24px;
+    padding: 10px;
+  }
+  
+  .week:active ul {
+    width: 230px;
+    font-size: 15px;
+    margin: 0 auto;
+    list-style-type: none;
+    padding: 0px; 
+  }
+  
+  .week:active a {
+    text-shadow: -1px 0 blue, 0 1px blue, 1px 0 blue, 0 -1px blue;
+    color: white;
+  }
+  
+  .week h2{
+    padding: 30px 0;
+    text-align:center;
+  }
+  
+  .week sup {
+    font-size: 15px; 
+  }
+  
+  .week ul{
+    width:100px;
+    height:100px;
+    font-size: 0px;
+  }
+  
+  code {
+    font-family: Lucida Console, Monaco, monospace;
+    font-weight: bold;
+  }
+  
+  big code {
+    font-size: 16px;
+    width: 600px;
+    
+  }
+  
+  textarea {
+    background-color: yellow;
+    box-shadow: 10px 10px blue;
+    font-weight: bold;
+    font-family: Lucida Console, Monaco, monospace;
+    width: 80%;
+    margin: 0 auto;
+    height: 150px;
+    position: static;
+  }
+  
+  .syllabus {
+    position: static;
+    width: 75%;
+    box-shadow: 10px 10px blue;
+    
+  }
+  
+  button {
+    background-color: yellow;
+    font-weight: bold;
+    font-family: Lucida Console, Monaco, monospace;   
+    height: 60px;
+    margin: 0 auto;
+  }
+  
+  button:hover {
+    background-color: #ffcee0;
+  }
+  
+  .students h2 {
+    font-size: 30;
+    text-align:center; 
+    font-weight: bold;
+    text-shadow: 2px 2px blue;
+  }
+  
+  .students li {
+    width: 80%;
+    display: block;
+    background-color: yellow;
+    margin: 5px auto;
+    list-style-type: none;
+    padding: 15px; 
+    font-size: 13px;
+  }
+  
+  .students ul {
+    padding:0;
+    margin:0;
+  }
+  
+  .students {
+    margin: 0 auto;
+    text-align:center;
+    padding: 0;
+  }
+  
+  .students a:hover {
+    color:blue;  
+  }
+  
+  .resources h2 {
+    color: blue;
+    font-size: 30;
+    margin-bottom: 0;
+  }
+  
+  .resources h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .resources ul {
+    margin: 0 auto;
+    list-style-type: none;
+    padding: 0px; 
+    font-size: 13px;
+  }
+  .resources {
+    text-align:center;
+  }
+  
+  hr {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-width: 2px;
+    color: black;
+  }
+  
+  .footer {
+    text-align: center;  
+  }
+  
+  .footer button{
+    box-shadow: 10px 10px blue;
+  }
+}
