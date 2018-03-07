@@ -1,0 +1,279 @@
+
+
+h1 {color:black;
+  font-family: impact;
+  width: 800px;
+  height:100px;
+  margin: 60 auto;
+  font-size: 80px;
+  line-height:100px;
+  text-align: center;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  animation-name: color;
+  animation-duration: 10s;  
+}
+@keyframes color {
+  0% {
+    color: red;
+  }
+  50% {
+    color: black; 
+  }
+
+}
+h4 {
+  height:500;
+}
+
+
+
+
+.semester{
+  color:red;
+  text-align:center;
+  font-weight: normal;
+  font-family: 'impact';
+  font-size: 40px;
+  position: relative;
+  top: 55px;
+  right: 0px;
+  padding: 0px;
+  letter-spacing: 0px;
+  text-transform:  uppercase;
+/*   animation-name: color;
+  animation-duration: 5s; */
+}
+/* @keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+} */
+
+
+
+.students {
+  text-align:left;
+  position: fixed;
+  top:50;
+  right:0;
+  background-color:white;
+  font-size:13px;
+  width: 180px;
+  height: 60px;
+}
+.students ul{ transition: all .5s ease-in-out; }
+.students ul:hover { transform: scale(1.2); }
+
+.students h2{
+  width:200;
+color:black;
+  text-align: left;
+  font-size: 30px;
+  text-transform:  uppercase;
+  font-family: "Arial";
+
+}
+
+
+
+
+.location {
+
+ text-align:center;
+  color:black;
+  font-weight:bold;
+  font-size: 30px;
+  line-height:50px;
+  animation-name: color;
+  animation-duration: 10s;  
+  font-family:'Arial Narrow';
+}
+@keyframes color {
+  0% {
+    color: red;
+  }
+  50% {
+    color: black; 
+  }
+
+}
+
+
+
+.welcome {
+  width:390;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right:auto; 
+  margin-top:0px;
+/*   overflow: hidden; */
+  font-size: 15;
+}
+
+.welcome code {
+  font-family:'Arial Narrow';
+/*   line-height: 20px; */
+}
+
+.welcome p {
+  font-family:'Arial Narrow';
+/*   line-height: 10px;  */
+} 
+  
+
+
+p {
+  text-align:center;
+  color:black;
+  font-family: "Arial Narrow";
+  font-size: 10px;
+  line-height: 30px;
+}
+
+textarea{
+  width:420;
+  position:absolute;
+  top:165;
+  left:34%;
+  text-transform: lowercase;
+  right:auto;
+  border: 0.1px solid white;
+  font-family: "Arial Narrow";
+  text-align: center;
+  font-size: 40px;
+  animation-name: color;
+  animation-duration: 10s;  
+}
+@keyframes color {
+  0% {
+    color: red;
+  }
+  50% {
+    color: black; 
+  }
+
+}
+.syllabus button {
+  margin-top: 320px;
+  margin-bottom: 50px;
+  font-size: 10px;
+}
+.syllabus button{ transition: all .5s ease-in-out; }
+.syllabus button:hover { transform: scale(1.5); }
+
+
+
+
+
+
+
+
+
+.week{
+  text-align:left;
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+  width: 400px;
+  height: auto;
+/*   padding: 10px 50px 50px 50px; */
+  background-color:white;
+  margin-bottom:60px;
+/*   overflow: hidden; */
+  font-size: 10;
+  color:black;
+  font-family: "Arial bold";
+  text-transform: uppercase;
+
+}
+.week h2{
+  margin:0;
+  font-size:30px;
+  text-align:left;
+}
+
+.week ul{ transition: all .5s ease-in-out; }
+.week ul:hover { transform: scale(1.2); }
+
+
+
+
+
+.resources {
+  position: absolute;
+  left:50;
+  top:1000;
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+  width: 200;
+  height: auto;
+  background-color:white;
+  margin-top:0px;
+  font-size: 13px;
+/*   overflow: auto; */
+}
+
+.resources h2 {
+  font-size:30px;
+  font-family: "Arial bold";
+  text-transform: uppercase;
+  text-align:left;
+}
+ .resources ul{ transition: all .5s ease-in-out; }
+.resources ul:hover { transform: scale(1.2); }
+  
+  
+.footer {
+  text-align:center;
+}
+
+
+
+
+
+
+
+mark{
+  background-color:white;
+}
+
+a{ 
+  color:gray;
+  font-family: "Arial Narrow";
+}
+  
+html, body{
+  width: 100%;
+  height :100%
+}
+
+body{
+  background-image:url(https://cdn.glitch.com/07e73443-2ff6-4f3c-9c51-b23457c6f27c%2Funiversitycentertns_1575x900_jamesewing_01jpg.jpg?1518621239767);
+  background-repeat: no-repeat;
+  background-size:700px 400px; 
+  background-position: center 350px;
+  z-index:0;  
+  
+  
+  
+}
+
+
+/* @media only screen and (max-width: 900px) {
+  .week .students {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 650px) and (min-width: 500px){
+  .week  {
+   
+  }
+} */
+
+
+
+
+

@@ -1,0 +1,181 @@
+body{
+    text-align:right;
+    padding-left:290px; 
+    margin:60;  
+    background-color:#EDEDED;
+    font-family: Verdana, Geneva, sans-serif;
+    line-height: 19px;
+
+}
+
+.welcome{
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #DCDCDC;
+    color:white;
+    font-size:12;
+    opacity: 0;
+    transition: 3s;
+    -webkit-margin-end: 0px;
+}
+
+.welcome:hover{
+    opacity:1;
+
+}
+
+
+h1{  
+    font-size:19;
+    letter-spacing: 3px;
+    color:red; 
+    font-family:arial, sans-serif;    
+    opacity: 1;
+    transition: 3s;
+}
+
+h1:hover{
+    opacity:0;
+  
+}
+
+h4{
+   color:white; 
+
+}
+
+ul{
+  list-style:none;
+}
+
+
+
+
+
+h5{
+    font-family:arial;
+    color:lightcoral; 
+
+}
+
+a { 
+    color:lightcoral;
+}
+
+a:hover{
+  color:white;
+}
+
+
+.week{
+  
+    font-family:arial;
+    font-weight: bold;
+    color:white;
+    font-size:12px;
+    display: inline-block;
+    width: 290px;
+    height: 210px;
+    -moz-border-radius: 100px / 50px;
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 119px;
+    padding: 30px;
+    background: indigo;
+    vertical-align: top;
+    margin: 20px;
+    box-shadow: 5px 10px #BF9FC8;
+    -webkit-margin-end: 0px;
+}
+
+
+
+
+
+
+.week h2{
+    font-family:arial;
+    font-variant: small-caps;
+    margin:0;
+    font-size:15px;
+    text-align: center;
+    border-bottom:10px;
+    
+  
+}
+
+
+h3{
+    text-align:left;
+}
+
+
+.quote{
+    opacity:0;
+}
+
+
+.students{
+    
+    background: linear-gradient(to right, indigo , transparent);  
+    color:red; 
+    font-family:arial;
+    font-size:12px;  
+    position:absolute; 
+    top:0px;
+    left:0px;  
+    text-align:left;
+    opacity: 0;
+    transition: 3s;  
+    padding:15px;
+    padding-right:490px;
+    animation-name:fade;
+    animation-duration:5s;
+}
+
+
+@keyframes fade{
+  from  { opacity: 1; }
+  to { opacity: 0; }
+
+}
+
+.students:hover{
+    opacity:1;
+
+}
+
+.resources{
+    background: linear-gradient(to right, indigo , transparent);  
+  
+    color:red; 
+    font-size:12px;  
+    position:absolute;
+    top:376px;
+    left: 0px;
+    margin-right:90px;  
+    text-align:left;
+    opacity: 0;
+    transition: 3s;   
+    padding:30px;
+    padding-right:400px;
+    padding-bottom:300px;
+    animation-name:fade;
+    animation-duration:5s;
+  
+}
+
+.resources:hover{
+    opacity:1;
+}
+
+
+.footer{
+  padding-top:10px;
+  font-size:12px;
+  font-family:arial;
+  color:red;
+}
+
+.hr {
+  color:indigo;
+
+}

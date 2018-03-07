@@ -1,0 +1,301 @@
+
+h1 {
+font-family: "Arial", serif;
+font-size: 55px;
+letter-spacing: 8px;
+color: black;
+text-align: center;
+margin-top: 40px;
+
+  
+  
+}
+
+body{
+  font-family: gillsans;
+  line-height: 33px;
+  text-decoration:none;
+  color:#ff4848;
+  
+  
+}
+
+.location{
+
+  text-align: center;
+  font-family: Helvetica;
+  
+
+  
+}
+
+.welcome{
+font-family: helvetica;
+color: #c61717;
+text-align: center;
+margin-left: 450px;
+margin-right: 450px;
+margin-top: 40px;
+  
+}
+
+
+
+h2{
+font-size: 30px;
+border-radius: 0px;
+width: 200px;
+height: 100px;
+line-height: 100px;
+text-align: center;
+  letter-spacing: 2px;
+     -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+  
+  
+}
+
+
+
+
+.quote{
+ 
+text-align: center; 
+  
+}
+
+.syllabus{
+
+    margin: 10px;
+    text-align: center;
+    font-size:30px;
+    padding: 15px;
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    color: #000;
+    background: transparent;
+  
+
+  
+}
+
+
+
+
+
+.syllabus:hover{
+
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  
+}
+
+
+
+.syllabus button {
+    display: inline-block;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 20px;
+    max-width: fit-content;
+    text-align: center;
+    font-size:10px;
+    padding: 15px;
+    border-radius: 12px;
+    border-color: #FFC0CB;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    color: #000;
+    background: transparent;
+    font-family: 'Courier', sans-serif;
+}
+
+
+
+.semester{
+  font-weight: normal;
+  font-family: Monaco;
+  font-size: 18px;
+  line-height: 18px;
+  position: fixed;
+  top: 0;
+  right: 40px;
+/*   background-color: #ffe45f; */
+  padding: 20px;
+  
+  
+}
+
+.semester:hover{
+  right: 0;
+  
+}
+
+.students h2{
+  font-weight: normal;
+  font-family: Monaco;
+  font-size: 18px;
+  text-align: center;
+  line-height: 80px;
+  position: fixed;
+  top: 0;
+  left: -20px;
+  width:10%;
+  background-color: #ffe45f;
+  padding: 4px;
+  
+  
+}
+
+
+.students {
+    display: block;
+    font-family: Helvetica;
+    font-size: 15px;
+    line-height: 2em;
+    height: 500px;
+    width: 200px;
+    background-color: rgba(255, 204, 204, 0.7);
+    transition: all 1s;
+    position: fixed;
+    top: 110px;
+    left: -500px;
+  
+}
+
+
+
+.students:hover{
+  left: 0;
+  
+}
+
+.resources{
+  font-family: Helvetica;
+  font-size:12px;
+  line-height: 1.5em;
+  height: 800px;
+  width: 500px;
+  background-color: rgba(255, 204, 204, 0.7);
+  transition: all 1s;
+  position: fixed;
+  top:0;
+/*   overflow:auto; */
+ top: 110px;
+left: -500px;
+}
+
+
+.resources h2 {
+  font-weight: normal;
+  font-family: Monaco;
+  font-size: 18px;
+  text-align: center;
+  line-height: 80px;
+  position: fixed;
+  top: 0px;
+  left: 170px;
+  width: 10%;
+  background-color: #ffe45f;
+  padding: 4px;
+  
+}
+.resources:hover {
+left: 0;
+}
+
+
+.wrapper{
+  min-width:100%;
+  margin: 0 auto;
+  margin-top: 10%;
+  display: block;
+  
+}
+
+
+
+
+.week{
+    display: inline-block;
+    width: 320px;
+    padding: 10px;
+    background-color: #fdfae8;
+    vertical-align: top;
+    margin: 50px;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 15px;
+    line-height: 2em;
+    box-shadow: 10px 10px 5px lightpink;
+    
+  
+  
+  
+}
+
+.week h2{
+  border: 3px solid;
+  border-color: #ffe45f;
+  display: inline-block;
+  font-family: Helvetica;
+  font-size: 17px;
+
+  
+  
+  
+}
+
+
+.footer{
+  
+    font-family: "Times New Roman";
+    font-size: 15px;
+    margin-left: 190px;
+    margin-right: 190px;
+    margin-top: 30px;
+    line-height: 1.5em;
+    text-align: center;
+  
+  
+}
+
+li {
+  color:#ff4848;
+  text-decoration:none;
+  
+}
+
+a:link{
+  color:#ff7c7c;
+  text-decoration:none;
+  
+}
+
+a:visited{
+ color: #cc2c2c;
+ text-decoration: none;
+}
+
+a:hover{
+  color: #ffe45f;
+  text-decoration:none;
+  
+}
+
+@media only screen and (max-width:1200px) {
+  .wrapper{
+    width: 100%;
+  
+    }
+  .week{
+  width: 50%;
+  
+  }
+}

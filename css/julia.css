@@ -1,0 +1,129 @@
+body{
+ 
+  font-family: Futura, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: pink;
+  background-color: MidnightBlue;
+}
+
+div{
+  background-image: 
+    url("https://cdn.glitch.com/43a62c23-011e-4af0-9a8a-c1a7825f2616%2Fgiphy%20(2).gif?1519780692773");
+}
+
+.wrapper{
+  width:70%;
+  margin-right: 30%;
+
+
+}
+
+
+
+.students{
+  top: 90px;
+  right: 10px;
+  position: fixed;
+  padding: 10px;
+  background-color: #0000CD;
+  margin: 20px;
+  border-radius: 20px;
+}
+.students a{
+  color: #DB7093;
+}
+
+.ul a{
+ color: white; 
+}
+.syllabus{
+  top: 60px;
+  right: 10px;
+  position: fixed;
+  padding: 5px;
+  background-color: CornflowerBlue;
+  border-radius: 20px;
+  
+}
+
+.resources a{
+  color: white;
+}
+
+
+.quote{
+  top: 70px;
+  right: 10px;
+  margin: 0px;
+  padding: 5px;
+  background-color: CornflowerBlue;
+  width: 145px; 
+}
+
+.footer a{
+  color: white;
+}
+
+h1{
+  background-color:CornflowerBlue;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+h4{
+  font-size: 20;
+  padding: 10px;
+  background-color: CornflowerBlue;
+  border-radius: 20px;
+  width: 200px;
+}
+h2{
+  font-size: 30;
+  background-color: #0000CD;
+  border-radius: 20px;
+  width: 300px;
+  padding: 10px;
+  
+}
+
+.week a{
+  color: white;
+}
+
+.software a{
+  color: white;
+}
+  
+
+
+mark{
+  background-color: MidnightBlue;
+  color:pink;
+  font-style:italic;
+}
+.welcome a{
+  color: pink;
+}
+p{
+  font-size: 14px;
+  font-family: futura, sans-serif;
+  
+}
+
+code{
+  font-family: futura, sans-serif;
+  font-size: 14px;
+}
+
+textarea{
+  font-family: futura, bold;
+  
+}
+  
+a{
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+  
