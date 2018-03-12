@@ -1,0 +1,282 @@
+<html>
+  <head>
+    <title>Core Lab Interaction - Week 8</title>
+  </head>
+  <body>
+    <h1>Week 8 Notes</h1>
+    
+        <h2>JavaScript Basics</h2>
+
+    <h2 id="separation-of-concerns">Separation of Concerns</h2>
+<p>HTML = organization of webpage content</p>
+
+<p>CSS = definition of content presentation style</p>
+
+<p>JavaScript = how the content interacts and behaves with the user</p>
+
+<h2 id="loading-javascript">Loading JavaScript</h2>
+
+<p>We use the <code class="highlighter-rouge">&lt;script&gt;</code> tag to connect our HTML page with our JavaScript file as follows:</p>
+
+<p><code class="highlighter-rouge">&lt;script type="text/javascript" src="path/file.js"&gt;&lt;/script&gt;</code></p>
+
+<p><img src="https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FScreenshot%202018-03-12%2009.43.56.png" alt="JavaScript Console" width="50%"></p>
+
+<p>The Chrome JavaScript Console, accessed via View &gt; Developer &gt; JavaScript Console.</p>
+
+<h2 id="data-types">Data Types</h2>
+<p>There are four primary data types in JavaScript:</p>
+
+<p><code class="highlighter-rouge">string</code></p>
+
+<p><code class="highlighter-rouge">number</code></p>
+
+<p><code class="highlighter-rouge">boolean</code></p>
+
+<p><code class="highlighter-rouge">array</code></p>
+
+<h2 id="strings">Strings</h2>
+<p>Used for storing textual information.</p>
+
+<p>Double quotes:
+<code class="highlighter-rouge">"a name means a lot just by itself"</code></p>
+
+<p>Single quotes:
+<code class="highlighter-rouge">'freedom is a luxury not a necessity'</code></p>
+
+<h2 id="quotes-in-strings">Quotes in Strings</h2>
+<p>Invert quote type:</p>
+
+<p><code class="highlighter-rouge">"Colognes in a blue bottle or with the word 'blue' in their names have proliferated on 
+men's fragrance counters in the last few years"</code></p>
+
+<p>Escaping:</p>
+
+<p><code class="highlighter-rouge">"Many economists say that such \"first dollar\" coverage leaves beneficiaries 
+insensitive to costs"</code></p>
+
+<h2 id="numbers">Numbers</h2>
+<p>Used to represent numerical data:</p>
+
+<p>Integers:
+<code class="highlighter-rouge">75</code></p>
+
+<p>Float:
+<code class="highlighter-rouge">3.14159</code></p>
+
+<h2 id="booleans">Booleans</h2>
+<p>Used for representing a binary value (true or false):
+<code class="highlighter-rouge">true</code> or 
+<code class="highlighter-rouge">false</code></p>
+
+<h2 id="arrays">Arrays</h2>
+<p>Contain other data types</p>
+
+<p>Mixed types OK</p>
+
+<p>Starts with <code class="highlighter-rouge">[</code>, ends with <code class="highlighter-rouge">]</code>, elments separated with <code class="highlighter-rouge">,</code>.</p>
+
+<p>Whitespace is ignored</p>
+
+<h2 id="array-examples">Array Examples</h2>
+<p>Empty array:
+<code class="highlighter-rouge">[]</code></p>
+
+<p>Single element:
+<code class="highlighter-rouge">["one"]</code></p>
+
+<p>Multiple elements:
+<code class="highlighter-rouge">["first", 2, "three"]</code></p>
+
+<p>Array Indexing
+<code class="highlighter-rouge">[]</code> + number = index into array</p>
+
+<p>JavaScript is a zero indexed language:</p>
+
+<p><code class="highlighter-rouge">["red", "white", "blue"][0] =&gt; "red"</code></p>
+
+<p><code class="highlighter-rouge">["red", "white", "blue"][1] =&gt; "white"</code></p>
+
+<p><code class="highlighter-rouge">["red", "white", "blue"][2] =&gt; "blue"</code></p>
+
+<h2 id="array-details">Array Details</h2>
+
+<p>Array length:
+<code class="highlighter-rouge">["red", "white", "blue"].length =&gt; 3</code></p>
+
+<p>First element at zero, last element at one less than array length</p>
+
+<h2 id="variables">Variables</h2>
+
+<p>Declaration:
+<code class="highlighter-rouge">var blackjack;</code></p>
+
+<p>Assignment:
+<code class="highlighter-rouge">blackjack = 21;</code></p>
+
+<p>Declaration and assignment:
+<code class="highlighter-rouge">var blackjack = 21;</code></p>
+
+<p>Reassignment:</p>
+
+<p><code class="highlighter-rouge">var name = "Brendan";</code></p>
+
+<p><code class="highlighter-rouge">name = "Brendan Griffiths";</code></p>
+
+<h2 id="console-logging">Console Logging</h2>
+
+<p><code class="highlighter-rouge">console.log("Hello world");</code></p>
+
+<p>Console log accepts any variable or data type. Multiple values can be strung together, separated with a comma:</p>
+
+<p><code class="highlighter-rouge">console.log(myVar, "Hello", 7);</code></p>
+
+<h2 id="relational-operators">Relational Operators</h2>
+<p>Less than:
+<code class="highlighter-rouge">&lt;</code></p>
+
+<p>Greater than:
+<code class="highlighter-rouge">&gt;</code></p>
+
+<p>Less than or equal to:
+<code class="highlighter-rouge">&lt;=</code></p>
+
+<p>Greater than or equal to:
+<code class="highlighter-rouge">&gt;=</code></p>
+
+<h2 id="examples">Examples:</h2>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="mi">1</span> <span class="o">&lt;</span> <span class="mi">2</span>
+<span class="c1">// true
+</span>
+
+<span class="mi">2</span> <span class="o">&lt;=</span> <span class="mi">1</span>
+<span class="c1">// false
+</span>
+
+<span class="mi">1</span> <span class="o">&lt;=</span> <span class="mi">1</span>
+<span class="c1">// true
+</span>
+
+<span class="kd">var</span> <span class="nx">myNum</span> <span class="o">=</span> <span class="mi">4</span><span class="p">;</span>
+<span class="kd">var</span> <span class="nx">altNum</span> <span class="o">=</span> <span class="mi">6</span><span class="p">;</span>
+<span class="nx">myNum</span> <span class="o">&lt;</span> <span class="nx">altNum</span>
+<span class="c1">// true
+</span>
+
+<span class="mi">1</span> <span class="o">&gt;</span> <span class="mi">1</span>
+<span class="c1">// false</span></code></pre></figure>
+
+<h2 id="are-two-things-equal">Are Two Things Equal?</h2>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="mi">10</span> <span class="o">==</span> <span class="mi">10</span><span class="p">;</span>
+<span class="c1">// true
+</span>
+
+<span class="mi">10</span> <span class="o">==</span> <span class="mi">5</span><span class="p">;</span>
+<span class="c1">// false
+</span>
+
+<span class="s2">"hi"</span> <span class="o">==</span> <span class="s2">"hi"</span><span class="p">;</span>
+<span class="c1">// true</span></code></pre></figure>
+
+<h2 id="and-">And (&amp;&amp;)</h2>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">name</span> <span class="o">=</span> <span class="s2">"Brendan"</span><span class="p">;</span>
+<span class="kd">var</span> <span class="nx">school</span> <span class="o">=</span> <span class="s2">"Parsons"</span><span class="p">;</span>
+<span class="k">if</span> <span class="p">(</span><span class="nx">name</span> <span class="o">==</span> <span class="s2">"Brendan"</span> <span class="o">&amp;&amp;</span> <span class="nx">school</span> <span class="o">==</span> <span class="s2">"Parsons"</span><span class="p">)</span> <span class="p">{</span>
+   <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'Come on in!'</span><span class="p">);</span>
+<span class="p">}</span></code></pre></figure>
+
+<h2 id="or-">Or (||)</h2>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">overSixteen</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span>
+<span class="kd">var</span> <span class="nx">parentsPresent</span> <span class="o">=</span> <span class="kc">false</span><span class="p">;</span>
+
+<span class="k">if</span> <span class="p">(</span><span class="nx">overSixteen</span> <span class="o">||</span> <span class="nx">parentsPresent</span><span class="p">)</span> <span class="p">{</span>
+   <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'Amazing...you can go to an R-rated movie.'</span><span class="p">);</span>
+<span class="p">}</span></code></pre></figure>
+
+<h2 id="if-statement">If Statement</h2>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="k">if</span> <span class="p">(</span><span class="kc">true</span><span class="p">)</span> <span class="p">{</span>
+   <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'Condition is true'</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="k">if</span> <span class="p">(</span><span class="kc">false</span><span class="p">)</span> <span class="p">{</span>
+   <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'This will never execute.'</span><span class="p">);</span>
+<span class="p">}</span></code></pre></figure>
+
+<h2 id="ifelse">If/Else</h2>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">film</span> <span class="o">=</span> <span class="s2">"The Silence of the Lambs"</span><span class="p">;</span>
+
+<span class="k">if</span> <span class="p">(</span><span class="nx">film</span> <span class="o">==</span> <span class="s2">"The Silence of the Lambs"</span> <span class="o">||</span> <span class="nx">film</span> <span class="o">==</span> <span class="s2">"Psycho"</span><span class="p">)</span> <span class="p">{</span>
+   <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'Your film is a thriller.'</span><span class="p">);</span>
+<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+   <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'Your film probably isn’t a thriller.'</span><span class="p">);</span>
+<span class="p">}</span></code></pre></figure>
+
+<h2 id="basic-math">Basic Math</h2>
+<p>Addition:
+<code class="highlighter-rouge">1 + 1 = 2</code></p>
+
+<p>Subtraction:
+<code class="highlighter-rouge">3 - 2 = 1</code></p>
+
+<p>Multiplication:
+<code class="highlighter-rouge">5 * 3 = 15</code></p>
+
+<p>Division:
+<code class="highlighter-rouge">10 / 2 = 5</code></p>
+
+<h2 id="increment--decrement---">Increment / Decrement (++ / –)</h2>
+<p>Increment:</p>
+
+<p><code class="highlighter-rouge">myVar = myVar + 1;</code></p>
+
+<p><code class="highlighter-rouge">myVar++;</code></p>
+
+<p>Decrement:</p>
+
+<p><code class="highlighter-rouge">myVar = myVar - 1;</code></p>
+
+<p><code class="highlighter-rouge">myVar--;</code></p>
+
+<h2 id="for-loop">For Loop</h2>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">multiplier</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="nx">multiplier</span> <span class="o">&lt;=</span> <span class="mi">10</span><span class="p">;</span> <span class="nx">multiplier</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+   <span class="kd">var</span> <span class="nx">result</span> <span class="o">=</span> <span class="nx">multiplier</span> <span class="o">*</span> <span class="mi">6</span><span class="p">;</span>
+   <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">result</span><span class="p">);</span>
+<span class="p">}</span></code></pre></figure>
+
+<h2 id="array-iteration">Array Iteration</h2>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">array</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">];</span>
+<span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">counter</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">counter</span> <span class="o">&lt;</span> <span class="nx">array</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">counter</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+   <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">array</span><span class="p">[</span><span class="nx">counter</span><span class="p">]);</span>
+<span class="p">}</span></code></pre></figure>
+
+    
+
+      
+    <h3>
+      See also:
+    </h3>
+    
+    
+    <ul>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics">What is JavaScript, really?</a></li>
+    </ul>
+    
+    <hr>
+    
+    <h3>
+      <a href="/">🔙 Go Home</a>
+    </h3>
+    
+    <p>
+      <small>Last updated: March 14, 2018</small>
+    </p>
+  </body>
+</html>
