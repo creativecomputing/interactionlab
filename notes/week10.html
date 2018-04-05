@@ -1,0 +1,80 @@
+<html>
+  <head>
+    <title>Core Lab Interaction - Week 10</title>
+  </head>
+  <body>
+    <h1>Week 10 Notes</h1>
+    
+    <h2 id="generating-html-elements">Generating HTML Elements</h2>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="mi">100</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+   <span class="nx">$</span><span class="p">(</span><span class="s2">"body"</span><span class="p">).</span><span class="nx">append</span><span class="p">(</span><span class="s2">"&lt;div class='box'&gt;&lt;/div&gt;"</span><span class="p">);</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>Appends 100 <code class="highlighter-rouge">div</code> elements with class <code class="highlighter-rouge">.box</code> to the <code class="highlighter-rouge">body</code>.</p>
+
+<h2 id="jquerys-each-function">jQuery’s Each Function</h2>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">$</span><span class="p">(</span><span class="s2">".box"</span><span class="p">).</span><span class="nx">each</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+   <span class="nx">$</span><span class="p">(</span><span class="k">this</span><span class="p">).</span><span class="nx">css</span><span class="p">(</span><span class="s2">"background-color"</span><span class="p">,</span><span class="s2">"red"</span><span class="p">);</span>
+<span class="p">});</span></code></pre></figure>
+
+<p>jQuery’s <code class="highlighter-rouge">each</code> function operates in the same manner as a loop, iterating through each matched element in the DOM.</p>
+
+<p>The above example applies a red background to each <code class="highlighter-rouge">.box</code> element in the DOM.</p>
+
+<h2 id="setting-css-values-dynamically">Setting CSS Values Dynamically</h2>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">opacity</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+
+<span class="nx">$</span><span class="p">(</span><span class="s2">".box"</span><span class="p">).</span><span class="nx">each</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+  <span class="nx">opacity</span> <span class="o">+=</span> <span class="p">.</span><span class="mi">01</span>
+   <span class="nx">$</span><span class="p">(</span><span class="k">this</span><span class="p">).</span><span class="nx">css</span><span class="p">(</span><span class="s2">"opacity"</span><span class="p">,</span> <span class="nx">opacity</span><span class="p">);</span>
+<span class="p">});</span></code></pre></figure>
+
+<p>Increases the opacity of <code class="highlighter-rouge">.box</code> by 1% with each iteration of the loop.</p>
+
+<h2 id="random-function">Random Function</h2>
+<p><code class="highlighter-rouge">Math.random();</code></p>
+
+<p>Generates a random number between 0 and 1.</p>
+
+<h2 id="rounding">Rounding</h2>
+<p><code class="highlighter-rouge">Math.round(3.7);</code></p>
+
+<p>Rounds input to nearest integer, in this case 4.</p>
+
+<p><code class="highlighter-rouge">Math.ceil(8.3);</code></p>
+
+<p>Rounds up to the smallest integer greater than or equal to our input, in this case 9.</p>
+
+<p><code class="highlighter-rouge">Math.floor(5.8);</code></p>
+
+<p>Rounds down to the largest integer less than or equal to our input, in this case 5.</p>
+
+<h2 id="random-array-values">Random Array Values</h2>
+<p><code class="highlighter-rouge">var myArray = ["image1.jpg", "image2.jpg", "image3.jpg", "image4.jpg", "image5.jpg", "image6.jpg"];</code></p>
+
+<p><code class="highlighter-rouge">myArray[Math.floor(Math.random()*myArray.length)];</code></p>
+
+<p>Returns a random entry from myArray.</p>
+
+<h2 id="setting-css-values">Setting CSS Values</h2>
+
+<p><code class="highlighter-rouge">var sizeVal = (Math.floor(Math.random()*60) + 20) + "px";</code></p>
+
+<p><code class="highlighter-rouge">$(".target").css("width", sizeVal).css("height", sizeVal);</code></p>
+
+<p>Sets the width and height of .target to a random value between 20 and 80.</p>
+
+    <hr>
+    
+    <h3>
+      <a href="/">🔙 Go Home</a>
+    </h3>
+    
+    <p>
+      <small>Last updated: April 4, 2018</small>
+    </p>
+  </body>
+</html>
