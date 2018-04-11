@@ -1,0 +1,75 @@
+<html>
+  <head>
+    <title>Core Lab Interaction - Week 11</title>
+  </head>
+  <body>
+    <h1>Week 11 Notes</h1>
+    
+    <h2>Listening for Other Events</h2>
+    
+    <h3>
+      Window Scroll
+    </h3>
+    
+    <p>
+      We can listen for the window scroll event as follows:
+    </p>
+    
+    <script src="https://gist.github.com/griffiths/83504f551fc2494385671b66d977db44.js"></script>
+    
+    <p>
+      We can also grab the current scroll position using <code><strong>$(window).scrollTop()</strong></code>.
+    </p>
+    
+    <h3>
+      Window Resize
+    </h3>
+    
+    <p>
+      We can listen for the window resize event as follows:
+    </p>
+    
+    <script src="https://gist.github.com/griffiths/92ba01406a86b7d86181592d63d10f4c.js"></script>
+    
+    <p>
+      And we can use <code><strong>$(window).width()</strong></code> and <code><strong>$(window).height()</strong></code> to grab the current width and height of our viewport.
+    </p>
+    
+    <h3>
+      Mousemove
+    </h3>
+    
+    <p>
+      Fires every time the mouse moves:
+    </p>
+    
+    <script src="https://gist.github.com/griffiths/4061f2d48a1b25edf6ab1746748b6b3d.js"></script>
+    
+    <h3>
+      The Event Object
+    </h3>
+    
+    <p>
+      The event object contains many variables and functions that we may want to use in our program, the most common of which are as follows:
+    </p>
+
+    
+    
+<h4><code>pageX, pageY</code></h4><p>The mouse position at the time the event occurred, relative to the top left corner of the page display area (not the entire browser window).</p>
+<h4><code>which</code></h4><p>The button or key that was pressed.</p>
+<h4><code>target</code></h4><p>The DOM element that initiated the event.</p>
+<h4><code>timeStamp</code></h4><p>The difference in milliseconds between the time the event occurred in the browser and January 1, 1970.</p>
+<h4><code>preventDefault()</code></h4><p>Prevent the default action of the event (e.g. following a link).</p>
+<h4><code>stopPropagation()</code></h4><p>Stop the event from bubbling up to other elements.</p>
+      
+    <hr>
+    
+    <h3>
+      <a href="/">🔙 Go Home</a>
+    </h3>
+    
+    <p>
+      <small>Last updated: April 11, 2018</small>
+    </p>
+  </body>
+</html>
