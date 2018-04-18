@@ -7,61 +7,70 @@
     
     <h2>Publishing to GitHub</h2>
     
-    <h3>
-      Window Scroll
-    </h3>
-    
     <p>
-      We can listen for the window scroll event as follows:
-    </p>
-    
-    <script src="https://gist.github.com/griffiths/83504f551fc2494385671b66d977db44.js"></script>
-    
-    <p>
-      We can also grab the current scroll position using <code><strong>$(window).scrollTop()</strong></code>.
-    </p>
-    
-    <h3>
-      Window Resize
-    </h3>
-    
-    <p>
-      We can listen for the window resize event as follows:
-    </p>
-    
-    <script src="https://gist.github.com/griffiths/92ba01406a86b7d86181592d63d10f4c.js"></script>
-    
-    <p>
-      And we can use <code><strong>$(window).width()</strong></code> and <code><strong>$(window).height()</strong></code> to grab the current width and height of our viewport.
-    </p>
-    
-    <h3>
-      Mousemove
-    </h3>
-    
-    <p>
-      Fires every time the mouse moves:
-    </p>
-    
-    <script src="https://gist.github.com/griffiths/4061f2d48a1b25edf6ab1746748b6b3d.js"></script>
-    
-    <h3>
-      The Event Object
-    </h3>
-    
-    <p>
-      The event object contains many variables and functions that we may want to use in our program, the most common of which are as follows:
-    </p>
+    You can use Glitch to publish directly to GitHub. Use the "Project Info" menu in the top-left (should show the name of your project) and select "Advanced Options". From there, click "Grant repo access" to allow Glitch to access your GitHub repositories. Then press Export to GitHub. You will be prompted to enter your username and repository name, be sure these are typed exactly as they appear in GitHub.
 
+    </p>
     
+    <img src="https://cdn.glitch.com/f2cfa7c6-664a-475b-b2fe-6997348e458f%2FScreenshot%202018-04-11%2013.10.37.png?1523466760246" width="30%">
     
-<h4><code>pageX, pageY</code></h4><p>The mouse position at the time the event occurred, relative to the top left corner of the page display area (not the entire browser window).</p>
-<h4><code>which</code></h4><p>The button or key that was pressed.</p>
-<h4><code>target</code></h4><p>The DOM element that initiated the event.</p>
-<h4><code>timeStamp</code></h4><p>The difference in milliseconds between the time the event occurred in the browser and January 1, 1970.</p>
-<h4><code>preventDefault()</code></h4><p>Prevent the default action of the event (e.g. following a link).</p>
-<h4><code>stopPropagation()</code></h4><p>Stop the event from bubbling up to other elements.</p>
+    <p>
+      From there you should be able to merge your changes directly on the GitHub website.
+    </p>
+    
+    <p>
+      <mark>Be sure your repository contains a file named <code>CNAME</code>. Your <code>CNAME</code> file should include only your domain name on a sigle line.</mark>
+    </p>
+    
+    <h2>
+      Registering a Domain Name
+    </h2>
+    
+    <p>
+      Domain names can be registered with a variety of providers. A few recommendations include:
       
+    </p>
+    
+    <ul>
+      <li><a href="https://domains.google/">Google Domains</a></li>
+      <li><a href="https://www.namecheap.com/">Namecheap</a></li>
+      <li><a href="https://porkbun.com/">Porkbun</a></li>
+      <li><a href="http://www.freenom.com/">Freenom</a> (offers free .tk/.ml/.ga domain names!)</li>
+      
+      
+    </ul>
+    
+    
+        <h2>
+      Pointing to GitHub
+    </h2>
+    
+    <p>
+      Once you have registered your domain name, use your domain provider's control panel to set <code>A</code> records which point to:
+      
+    </p>
+    
+    
+        <ul>
+      <li><code>192.30.252.153</code></li>
+      <li><code>192.30.252.154</code></li>
+      
+      
+    </ul>
+    
+      
+    <h3>
+      See also:
+    </h3>
+    
+    
+    <ul>
+      <li><a href="https://git-scm.com/book/en/v1/Getting-Started-About-Version-Control">About Version Control</a></li>
+      <li><a href="https://help.github.com/articles/setting-up-an-apex-domain/">Setting up an apex domain</a></li>
+      
+    </ul>
+    
+    
     <hr>
     
     <h3>
@@ -69,7 +78,7 @@
     </h3>
     
     <p>
-      <small>Last updated: April 11, 2018</small>
+      <small>Last updated: April 18, 2018</small>
     </p>
   </body>
 </html>
